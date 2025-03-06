@@ -12,7 +12,13 @@ CREATE DATABASE surveyDB;
 --CREATE TABLE readingTB
 
 
-------- SETUP: -------
+--- once the tables are created, I'll need to import the csv file data into respective files
+---   possibly using the folowing lines
+
+---BULK INSERT mathTB
+---FROM 'ltt-reading2022covidsurveyresults.csv'
+
+------------------------------------ SETUP: ---------------------------------------------------------
 
 -- docker build -t mysql_db .
 
@@ -36,12 +42,10 @@ CREATE DATABASE surveyDB;
 -- show tables
 ----- ^^ now we can see the tables in the database
 
---------------------------------------------------------
-
------- next I want to create a math table and a reading table and import the csv file data into the respective tables
-
----BULK INSERT math_survey_data
----FROM 'ltt-reading2022covidsurveyresults.csv'
+---------------------------------------------------------------------------------------------------
 
 
--- SELECT * from 
+
+
+-- SELECT * from  <tablename>
+----^ do this with math and reading tables to check that they were created and populated correctly
