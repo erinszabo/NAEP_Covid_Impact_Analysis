@@ -24,10 +24,6 @@
 -- show tables;
 ----- ^^ now we can see the tables in the database
 
------------------------- to use csvsql ---------------------------------
-
--- csvsql --dialect mysql --snifflimit 100000 math_survey_results.csv > math_table.sql
--- csvsql --dialect mysql --snifflimit 100000 reading_survey_results.csv > reading_table.sql
 
 -- show tables
 
@@ -38,36 +34,10 @@
 
 
 --------------------------- current work: -------------------------------------
-The following method for loading the data from the files will not work because the files are not
-located in the secure folder. 
-  "The MySQL server is running with the --secure-file-priv option so it cannot execute this statement"
-I tried a workaround using 'LOCAL' but this couldn't work because it is disabled, probable from the docker server.
-  "Loading local data is disabled; this must be enabled on both the client and server sides"
-
--------------
-LOAD DATA INFILE '/math_survey_results.csv'
-INTO TABLE mathTB
-FIELDS TERMINATED BY ","
-LINES TERMINATED BY "\n"
-IGNORE 5 LINES;
-
-LOAD DATA INFILE '/reading_survey_results.csv'
-INTO TABLE mathTB
-FIELDS TERMINATED BY ","
-LINES TERMINATED BY "\n"
-IGNORE 5 LINES;
---------------
-
-Next steps:
-  I need to either...
-  relocate the csv files to the directory specified by secure-file-priv.
-    or
-  Disable secure-file-priv. This must be removed from startup and cannot be modified dynamically. 
-  To do this check your MySQL start up parameters (depending on platform) and my.ini.
-
-The safe/smart option seems to be to move the files to the directory specified by secure-file-priv.
-Once I know where they should move specifically, I should be able to move the csv files through commands 
-in my docker file, just like how I copied the surveyDB.sql file in line 3 of the dockerfile.
+Loading the data into the tables, all is well except for the optional flag in the last column.
+Size is either 1 or 0 so maybe this is a problem for VARCHAR and I need to change the type spec in
+the table creation.
+Boolean would be nice but this didn't work, at least not immediatly. Just need to google a bit.
 
 -----------------------------------------------------------------------------------
 
