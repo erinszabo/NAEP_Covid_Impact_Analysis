@@ -1,3 +1,4 @@
+NAEPID,AccNum,Category,Category Label,Percent,PCT SE ,Average score,Score SE
 TOTAL  , TOTAL   , 1, TOTAL   , 100, 0.0 , 234, 1.17
 CV00001, VR233341, 1, Yes     ,  70, 0.94, 240, 1.26
 CV00001, VR233341, 2, No      ,  19, 0.81, 231, 1.70
