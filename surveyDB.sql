@@ -12,9 +12,7 @@ CREATE TABLE mathTB
     sPercent INT,
     PCT_SE FLOAT,
     Avg_score INT,
-    ScoreSE FLOAT,
-    SQD VARCHAR(60),
-    Flag VARCHAR(5)
+    ScoreSE FLOAT
 );
 
 CREATE TABLE readingTB
@@ -26,19 +24,63 @@ CREATE TABLE readingTB
     sPercent INT,
     PCT_SE FLOAT,
     Avg_score INT,
-    ScoreSE FLOAT,
-    SQD VARCHAR(60),
-    Flag VARCHAR(5)
+    ScoreSE FLOAT
 );
 
-LOAD DATA INFILE '/var/lib/mysql-files/math_survey_results.csv'
-INTO TABLE mathTB
-FIELDS TERMINATED BY ","
-LINES TERMINATED BY "\n"
-IGNORE 6 LINES;
+SET sql_mode
+= 'NO_ENGINE_SUBSTITUTION';
 
-LOAD DATA INFILE '/var/lib/mysql-files/reading_survey_results.csv'
+
+LOAD DATA INFILE '/var/lib/mysql-files/test_math.csv' 
 INTO TABLE mathTB
-FIELDS TERMINATED BY ","
-LINES TERMINATED BY "\n"
-IGNORE 6 LINES;
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+OPTIONALLY ENCLOSED BY "'"
+LINES TERMINATED BY '\n'
+(
+    NAEPID,
+    AccNum,
+    Category,
+    CategoryL,
+    sPercent,
+    @PCT_SE,
+    @Avg_score,
+    @ScoreSE
+)
+SET
+    PCT_SE
+=
+IF(LOWER(TRIM(BOTH ' ' FROM @PCT_SE)) = 'null', NULL, NULLIF
+(@PCT_SE, '')),
+    Avg_score =
+IF(LOWER(TRIM(BOTH ' ' FROM @Avg_score)) = 'null', NULL, NULLIF
+(@Avg_score, '')),
+    ScoreSE =
+IF(LOWER(TRIM(BOTH ' ' FROM @ScoreSE)) = 'null' OR @ScoreSE = '', NULL, @ScoreSE);
+
+LOAD DATA INFILE '/var/lib/mysql-files/reading_survey_results.csv' 
+INTO TABLE readingTB
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+OPTIONALLY ENCLOSED BY "'"
+LINES TERMINATED BY '\n'
+(
+    NAEPID,
+    AccNum,
+    Category,
+    CategoryL,
+    sPercent,
+    @PCT_SE,
+    @Avg_score,
+    @ScoreSE
+)
+SET
+    PCT_SE
+=
+IF(LOWER(TRIM(BOTH ' ' FROM @PCT_SE)) = 'null', NULL, NULLIF
+(@PCT_SE, '')),
+    Avg_score =
+IF(LOWER(TRIM(BOTH ' ' FROM @Avg_score)) = 'null', NULL, NULLIF
+(@Avg_score, '')),
+    ScoreSE =
+IF(LOWER(TRIM(BOTH ' ' FROM @ScoreSE)) = 'null' OR @ScoreSE = '', NULL, @ScoreSE);

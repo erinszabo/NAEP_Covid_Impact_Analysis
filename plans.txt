@@ -1,43 +1,37 @@
 
------------------------------------- SETUP: ---------------------------------------------------------
+ --------------------------------SETUP:------------------------------------------------------------
 
 -- docker build -t mysql_db .
 
 -- docker run -d mysql_db
 -- ^^ -d so that it doesn't take up the terminal. remove this to troubleshoot 
 
------- then list the containers so I can get the <containerID>
+ then list the containers so I can get the <containerID>
 -- docker container ls
 
 -- docker exec -it <containerID> /bin/bash
 
------- now should be running inside container, now you can cd into the dir created in the dockerfile 
-------   and now we can access mysql:
+ now should be running inside container, now you can cd into the dir created in the dockerfile 
+   and now we can access mysql:
 
 -- cd docker-entrypoint-initdb.d
 -- mysql -proot
+----------------------------------- SQL -----------------------------------------------------------
+-- now we can show databases and see that the database in the sql file was created.
 
--------- now we can show databases and see that the database in the sql file was created.
-
--- use surveyDB
------ probably already using it in the sql file, but just incase
+-- use surveyDB;
 -- show tables;
------ ^^ now we can see the tables in the database
+-- ^^ now we can see the tables in the database
 
-
--- show tables
 
 -- SELECT * from  <tablename>
-----^ do this with math and reading tables to check that they were created and populated correctly
-
----------------------------------------------------------------------------------------------------
+-^ do this with math and reading tables to check that they were created and populated correctly
 
 
---------------------------- current work: -------------------------------------
-Loading the data into the tables, all is well except for the optional flag in the last column.
-Size is either 1 or 0 so maybe this is a problem for VARCHAR and I need to change the type spec in
-the table creation.
-Boolean would be nice but this didn't work, at least not immediatly. Just need to google a bit.
 
------------------------------------------------------------------------------------
+
+-------------------------------- current work:---------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------
 
