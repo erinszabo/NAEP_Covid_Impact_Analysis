@@ -12,7 +12,8 @@ CREATE TABLE mathTB
     sPercent INT,
     PCT_SE FLOAT,
     Avg_score INT,
-    ScoreSE FLOAT
+    ScoreSE FLOAT,
+    Question VARCHAR(1000)
 );
 
 CREATE TABLE readingTB
@@ -24,7 +25,9 @@ CREATE TABLE readingTB
     sPercent INT,
     PCT_SE FLOAT,
     Avg_score INT,
-    ScoreSE FLOAT
+    ScoreSE FLOAT,
+    Question VARCHAR(1000)
+
 );
 
 SET sql_mode
@@ -35,7 +38,6 @@ LOAD DATA INFILE '/var/lib/mysql-files/math_survey_results.csv'
 INTO TABLE mathTB
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-OPTIONALLY ENCLOSED BY "'"
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 (
@@ -46,7 +48,8 @@ IGNORE 1 LINES
     sPercent,
     @PCT_SE,
     @Avg_score,
-    @ScoreSE
+    @ScoreSE,
+    Question
 )
 SET
     PCT_SE
@@ -63,7 +66,6 @@ LOAD DATA INFILE '/var/lib/mysql-files/reading_survey_results.csv'
 INTO TABLE readingTB
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-OPTIONALLY ENCLOSED BY "'"
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
 (
@@ -74,7 +76,8 @@ IGNORE 1 LINES
     sPercent,
     @PCT_SE,
     @Avg_score,
-    @ScoreSE
+    @ScoreSE,
+    Question
 )
 SET
     PCT_SE
