@@ -32,6 +32,33 @@
 
 -------------------------------- current work:---------------------------------------------------
 
+Interpreting the tables (atarting with the math table):
 
+PCT SE  -  I believe this is percent standard error. This gives an idea of the level of confidence in their
+    measurement, so it isn't a value I have interest in working with. All of the values are low enough
+    to have relativly high confidence in the data accurecy so I dont think I will use this to weed out 
+    uninformative results, so I think I should just remove the column completely. Or not include then in 
+    a bare bones version of the table.
+
+Score SE  -  Unfortunetly, some of the stardard error values in this column are higher, so I may want to
+    take this into consideration. For now, I think I will ignore them and hope that the data is good enough
+    to work with. I will not incluse this in my bare bones table.
+
+Survey questions  -  I temporarily removed the survey questions just to work through loading the tables
+    and getting that all to work correctly without dealing with the commas, though I regret this because they
+    are integral to the information I'm looking at, so I want to put them back.
+
+Flag  -  I removed the flag because I am not finding information on it's significance. 
+
+
+Category  -  I'm not finding information on this online, but I am noticing some patterns just looking at the
+    tables, there is some consistency with the category number and the answer provided to a question.
+    I want to use SQL to look at these patterns by creating subtables that contain only rows of a certain
+    category.
+
+------------ TODO:
+  1- add the survey questions back into the tables/csv files.
+  2- look at patterns to learn significance of categories using sql.
+ 
 -------------------------------------------------------------------------------------------------
 
