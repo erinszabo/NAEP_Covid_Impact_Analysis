@@ -1,0 +1,745 @@
+NAEPID,AccNum,Category,Category Label,Percent,PCT SE ,Average score,Score SE,Survey Question Description,Flag
+ TOTAL  ,TOTAL  ,1,TOTAL,100,---,234,1.17,TOTAL STUDENT POPULATION                          ,
+ CV00001 ,VR233341,1,Yes     ,70,0.94,240,1.26,"During last schl yr, did you ever attend remotely ", 
+ CV00001 ,VR233341,2,No      ,19,0.81,231,1.70,"During last schl yr, did you ever attend remotely ", 
+ CV00001 ,VR233341,3,DontRemb,11,0.53,218,2.19,"During last schl yr, did you ever attend remotely ", 
+ CV00001 ,VR233341,4, MISSING,6,0.66,207,5.20,                                           MISSING, 
+ CV00101 ,VR233349,1,This sch,85,0.91,241,1.31,"During last schl yr, which school did you attend  ",!
+ CV00101 ,VR233349,2,Diff sch,15,0.91,231,3.00,"During last schl yr, which school did you attend  ",!
+ CV00101 ,VR233349,3, MISSING,35,1.01,223,1.56,                                           MISSING,!
+ CV00201 ,VR233416,1,All time,44,0.89,240,1.71,Remote: Access to high-speed internet             ,!
+ CV00201 ,VR233416,2,SomeTime,38,1.10,248,1.39,Remote: Access to high-speed internet             ,!
+ CV00201 ,VR233416,3,NotAvail,5,0.37,232,3.53,Remote: Access to high-speed internet             ,!
+ CV00201 ,VR233416,4,DontRemb,14,0.67,236,1.79,Remote: Access to high-speed internet             ,!
+ CV00201 ,VR233416,5, MISSING,40,1.03,221,1.50,                                           MISSING,!
+ CV00202 ,VR233417,1,All time,73,0.91,248,1.22,"Remote: desktop, laptop or tablet                 ",!
+ CV00202 ,VR233417,2,SomeTime,18,0.58,237,1.70,"Remote: desktop, laptop or tablet                 ",!
+ CV00202 ,VR233417,3,NotAvail,5,0.49,221,2.94,"Remote: desktop, laptop or tablet                 ",!
+ CV00202 ,VR233417,4,DontRemb,4,0.34,223,3.08,"Remote: desktop, laptop or tablet                 ",!
+ CV00202 ,VR233417,5, MISSING,41,1.01,220,1.53,                                           MISSING,!
+ CV00203 ,VR233418,1,All time,33,0.94,237,1.24,"Remote: A smartphone (iPhone, Galaxy, HTC One)    ",!
+ CV00203 ,VR233418,2,SomeTime,17,0.66,245,1.84,"Remote: A smartphone (iPhone, Galaxy, HTC One)    ",!
+ CV00203 ,VR233418,3,NotAvail,41,0.80,250,1.53,"Remote: A smartphone (iPhone, Galaxy, HTC One)    ",!
+ CV00203 ,VR233418,4,DontRemb,9,0.48,236,2.49,"Remote: A smartphone (iPhone, Galaxy, HTC One)    ",!
+ CV00203 ,VR233418,5, MISSING,42,1.06,221,1.54,                                           MISSING,!
+ CV00204 ,VR233419,1,All time,37,1.20,252,1.94,Remote: A printer                                 ,!
+ CV00204 ,VR233419,2,SomeTime,21,0.73,251,1.44,Remote: A printer                                 ,!
+ CV00204 ,VR233419,3,NotAvail,33,0.98,235,1.31,Remote: A printer                                 ,!
+ CV00204 ,VR233419,4,DontRemb,9,0.46,235,1.90,Remote: A printer                                 ,!
+ CV00204 ,VR233419,5, MISSING,44,1.07,220,1.50,                                           MISSING,!
+ CV00205 ,VR233420,1,All time,83,0.76,247,1.14,Remote: School supplies (eg. paper and pencil)    ,!
+ CV00205 ,VR233420,2,SomeTime,11,0.56,242,2.05,Remote: School supplies (eg. paper and pencil)    ,!
+ CV00205 ,VR233420,3,NotAvail,3,0.33,209,5.42,Remote: School supplies (eg. paper and pencil)    ,!
+ CV00205 ,VR233420,4,DontRemb,3,0.34,223,3.88,Remote: School supplies (eg. paper and pencil)    ,!
+ CV00205 ,VR233420,5, MISSING,44,1.07,220,1.49,                                           MISSING,!
+ CV00206 ,VR233421,1,All time,44,0.83,243,1.52,Remote: A quiet place to work                     ,!
+ CV00206 ,VR233421,2,SomeTime,41,0.83,250,1.39,Remote: A quiet place to work                     ,!
+ CV00206 ,VR233421,3,NotAvail,12,0.58,237,2.12,Remote: A quiet place to work                     ,!
+ CV00206 ,VR233421,4,DontRemb,4,0.31,219,4.82,Remote: A quiet place to work                     ,!
+ CV00206 ,VR233421,5, MISSING,43,1.08,220,1.45,                                           MISSING,!
+ CV00401 ,VR233431,1,Never   ,17,0.67,233,1.92,Remote: teacher available to help w/ math         ,!
+ CV00401 ,VR233431,2,1-2/mnth,9,0.47,235,2.31,Remote: teacher available to help w/ math         ,!
+ CV00401 ,VR233431,3,1-2/week,13,0.64,245,1.84,Remote: teacher available to help w/ math         ,!
+ CV00401 ,VR233431,4,EveryDay,38,1.10,248,1.57,Remote: teacher available to help w/ math         ,!
+ CV00401 ,VR233431,5,DontRemb,23,0.65,236,1.53,Remote: teacher available to help w/ math         ,!
+ CV00401 ,VR233431,6, MISSING,38,1.01,222,1.58,                                           MISSING,!
+ CV00402 ,VR233432,1,Never   ,35,0.99,245,1.63,Remote: work online in small groups math          ,!
+ CV00402 ,VR233432,2,1-2/mnth,14,0.54,239,2.11,Remote: work online in small groups math          ,!
+ CV00402 ,VR233432,3,1-2/week,19,0.83,249,2.16,Remote: work online in small groups math          ,!
+ CV00402 ,VR233432,4,EveryDay,19,0.59,238,1.69,Remote: work online in small groups math          ,!
+ CV00402 ,VR233432,5,DontRemb,13,0.62,236,1.74,Remote: work online in small groups math          ,!
+ CV00402 ,VR233432,6, MISSING,39,1.08,221,1.54,                                           MISSING,!
+ CV00403 ,VR233433,1,Never   ,20,0.89,239,1.89,Remote: asked to take math quiz/test online       ,!
+ CV00403 ,VR233433,2,1-2/mnth,22,0.71,248,1.65,Remote: asked to take math quiz/test online       ,!
+ CV00403 ,VR233433,3,1-2/week,25,1.09,249,1.70,Remote: asked to take math quiz/test online       ,!
+ CV00403 ,VR233433,4,EveryDay,16,0.59,236,2.04,Remote: asked to take math quiz/test online       ,!
+ CV00403 ,VR233433,5,DontRemb,18,0.68,237,1.95,Remote: asked to take math quiz/test online       ,!
+ CV00403 ,VR233433,6, MISSING,40,1.04,221,1.64,                                           MISSING,!
+ CV00501 ,VR233342,1,Lot diff,36,0.96,235,1.41,How difficult or easy was it to learn remotely    ,!
+ CV00501 ,VR233342,2,SomeDiff,31,0.91,252,1.25,How difficult or easy was it to learn remotely    ,!
+ CV00501 ,VR233342,3,SomeEasy,19,0.61,241,1.79,How difficult or easy was it to learn remotely    ,!
+ CV00501 ,VR233342,4,Lot easy,15,0.68,230,2.22,How difficult or easy was it to learn remotely    ,!
+ CV00501 ,VR233342,5, MISSING,36,1.04,222,1.57,                                           MISSING,!
+ CV00601 ,VR251057,1,Never   ,19,0.68,240,2.47,While remote how often received help w/ schoolwork,!
+ CV00601 ,VR251057,2,1-2/mnth,12,0.42,242,2.26,While remote how often received help w/ schoolwork,!
+ CV00601 ,VR251057,3,1-2/week,19,0.60,249,1.63,While remote how often received help w/ schoolwork,!
+ CV00601 ,VR251057,4,EveryDay,37,0.98,238,1.38,While remote how often received help w/ schoolwork,!
+ CV00601 ,VR251057,5,DontRemb,13,0.55,234,2.11,While remote how often received help w/ schoolwork,!
+ CV00601 ,VR251057,6, MISSING,37,1.05,223,1.50,                                           MISSING,!
+ CV00701 ,VR233460,1,Yes     ,79,0.83,242,1.32,"Remote help from mother, stepmother, foster, other",!
+ CV00701 ,VR233460,2,No      ,21,0.83,239,1.76,"Remote help from mother, stepmother, foster, other",!
+ CV00701 ,VR233460,3, MISSING,39,1.05,222,1.48,                                           MISSING,!
+ CV00702 ,VR233463,1,Yes     ,58,0.97,246,1.26,"Remote help from father, stepfather, foster, other",!
+ CV00702 ,VR233463,2,No      ,42,0.97,241,1.47,"Remote help from father, stepfather, foster, other",!
+ CV00702 ,VR233463,3, MISSING,44,1.11,221,1.46,                                           MISSING,!
+ CV00703 ,VR233466,1,Yes     ,43,1.00,236,1.44,Remote help from brother or sister                ,!
+ CV00703 ,VR233466,2,No      ,57,1.00,248,1.37,Remote help from brother or sister                ,!
+ CV00703 ,VR233466,3, MISSING,44,1.18,222,1.42,                                           MISSING,!
+ CV00704 ,VR233467,1,Yes     ,36,1.01,239,1.67,Remote help from other person                     ,!
+ CV00704 ,VR233467,2,No      ,64,1.01,247,1.19,Remote help from other person                     ,!
+ CV00704 ,VR233467,3, MISSING,46,1.21,222,1.41,                                           MISSING,!
+ CV00901 ,VR233447,1,Def cant,6,0.32,204,2.28,Remote math: Recognize when don't understand      , 
+ CV00901 ,VR233447,2,ProbCant,7,0.37,225,2.20,Remote math: Recognize when don't understand      , 
+ CV00901 ,VR233447,3,Maybe   ,39,0.81,231,1.10,Remote math: Recognize when don't understand      , 
+ CV00901 ,VR233447,4,Prob Can,25,0.70,247,1.44,Remote math: Recognize when don't understand      , 
+ CV00901 ,VR233447,5,Def can ,23,0.69,247,2.17,Remote math: Recognize when don't understand      , 
+ CV00901 ,VR233447,6, MISSING,11,0.69,209,2.65,                                           MISSING, 
+ CV00902 ,VR233448,1,Def cant,5,0.30,214,3.14,Remote math: Ask for help when you need it        , 
+ CV00902 ,VR233448,2,ProbCant,4,0.34,215,2.96,Remote math: Ask for help when you need it        , 
+ CV00902 ,VR233448,3,Maybe   ,16,0.49,232,1.55,Remote math: Ask for help when you need it        , 
+ CV00902 ,VR233448,4,Prob Can,21,0.46,242,1.53,Remote math: Ask for help when you need it        , 
+ CV00902 ,VR233448,5,Def can ,54,0.72,241,1.31,Remote math: Ask for help when you need it        , 
+ CV00902 ,VR233448,6, MISSING,12,0.76,207,2.88,                                           MISSING, 
+ CV00903 ,VR233449,1,Def cant,10,0.42,220,2.02,Remote math: Find resource online if dont underst , 
+ CV00903 ,VR233449,2,ProbCant,9,0.38,233,2.09,Remote math: Find resource online if dont underst , 
+ CV00903 ,VR233449,3,Maybe   ,30,0.67,236,1.55,Remote math: Find resource online if dont underst , 
+ CV00903 ,VR233449,4,Prob Can,23,0.54,245,1.46,Remote math: Find resource online if dont underst , 
+ CV00903 ,VR233449,5,Def can ,28,0.66,244,1.44,Remote math: Find resource online if dont underst , 
+ CV00903 ,VR233449,6, MISSING,14,0.78,207,2.78,                                           MISSING, 
+ CVS0001 ,VR267150,1,Before  ,42,3.10,236,2.09,This year prep for distance: Training tchr/staff  ,!
+ CVS0001 ,VR267150,2,During  ,1,0.65,227,6.51,This year prep for distance: Training tchr/staff  ,!
+ CVS0001 ,VR267150,3,Both    ,27,2.94,230,2.92,This year prep for distance: Training tchr/staff  ,!
+ CVS0001 ,VR267150,4,No      ,1,0.79,243,2.34,This year prep for distance: Training tchr/staff  ,!
+ CVS0001 ,VR267150,5,NotOffer,29,2.97,234,2.67,This year prep for distance: Training tchr/staff  ,!
+ CVS0001 ,VR267150,6, MISSING,16,2.11,235,2.72,                                           MISSING,!
+ CVS0002 ,VR267151,1,Before  ,36,2.71,235,2.28,This year prep for distance: Training stud/parnt  ,!
+ CVS0002 ,VR267151,2,During  ,8,1.80,237,5.16,This year prep for distance: Training stud/parnt  ,!
+ CVS0002 ,VR267151,3,Both    ,20,2.83,227,3.53,This year prep for distance: Training stud/parnt  ,!
+ CVS0002 ,VR267151,4,No      ,7,1.69,240,4.36,This year prep for distance: Training stud/parnt  ,!
+ CVS0002 ,VR267151,5,NotOffer,28,2.90,234,2.70,This year prep for distance: Training stud/parnt  ,!
+ CVS0002 ,VR267151,6, MISSING,16,2.11,235,2.72,                                           MISSING,!
+ CVS0003 ,VR267152,1,Before  ,36,2.88,234,2.19,This year prep for distance: Digital resources    ,!
+ CVS0003 ,VR267152,2,During  ,6,1.32,237,5.10,This year prep for distance: Digital resources    ,!
+ CVS0003 ,VR267152,3,Both    ,27,2.97,231,2.64,This year prep for distance: Digital resources    ,!
+ CVS0003 ,VR267152,4,No      ,2,0.93,238,6.68,This year prep for distance: Digital resources    ,!
+ CVS0003 ,VR267152,5,NotOffer,29,3.01,235,2.64,This year prep for distance: Digital resources    ,!
+ CVS0003 ,VR267152,6, MISSING,16,2.11,235,2.72,                                           MISSING,!
+ CVS0004 ,VR267156,1,Before  ,33,2.81,236,2.42,This year prep for distance: Paper resources      ,!
+ CVS0004 ,VR267156,2,During  ,9,1.68,233,5.33,This year prep for distance: Paper resources      ,!
+ CVS0004 ,VR267156,3,Both    ,21,2.44,230,2.55,This year prep for distance: Paper resources      ,!
+ CVS0004 ,VR267156,4,No      ,8,1.57,229,4.02,This year prep for distance: Paper resources      ,!
+ CVS0004 ,VR267156,5,NotOffer,28,3.05,236,2.65,This year prep for distance: Paper resources      ,!
+ CVS0004 ,VR267156,6, MISSING,16,2.11,235,2.72,                                           MISSING,!
+ CVS0005 ,VR267154,1,Before  ,35,3.17,235,2.23,This year prep for distance: Adapt curric plans   ,!
+ CVS0005 ,VR267154,2,During  ,7,1.57,236,5.35,This year prep for distance: Adapt curric plans   ,!
+ CVS0005 ,VR267154,3,Both    ,26,2.79,230,2.73,This year prep for distance: Adapt curric plans   ,!
+ CVS0005 ,VR267154,4,No      ,3,1.01,230,8.18,This year prep for distance: Adapt curric plans   ,!
+ CVS0005 ,VR267154,5,NotOffer,29,3.11,236,2.59,This year prep for distance: Adapt curric plans   ,!
+ CVS0005 ,VR267154,6, MISSING,16,2.11,235,2.72,                                           MISSING,!
+ CVS0006 ,VR267155,1,Before  ,30,2.90,235,2.64,This year prep for distance: Addl support for SD  ,!
+ CVS0006 ,VR267155,2,During  ,7,1.54,238,5.02,This year prep for distance: Addl support for SD  ,!
+ CVS0006 ,VR267155,3,Both    ,31,3.08,229,2.32,This year prep for distance: Addl support for SD  ,!
+ CVS0006 ,VR267155,4,No      ,5,1.34,238,4.11,This year prep for distance: Addl support for SD  ,!
+ CVS0006 ,VR267155,5,NotOffer,27,2.90,236,2.84,This year prep for distance: Addl support for SD  ,!
+ CVS0006 ,VR267155,6, MISSING,16,2.11,235,2.72,                                           MISSING,!
+ CVS0007 ,VR267153,1,Before  ,29,2.88,233,2.90,This year prep for distance: Addl support for EL  ,!
+ CVS0007 ,VR267153,2,During  ,8,1.51,238,5.40,This year prep for distance: Addl support for EL  ,!
+ CVS0007 ,VR267153,3,Both    ,26,2.97,230,2.60,This year prep for distance: Addl support for EL  ,!
+ CVS0007 ,VR267153,4,No      ,10,1.85,241,2.74,This year prep for distance: Addl support for EL  ,!
+ CVS0007 ,VR267153,5,NotOffer,27,2.90,234,2.76,This year prep for distance: Addl support for EL  ,!
+ CVS0007 ,VR267153,6, MISSING,16,2.11,234,2.73,                                           MISSING,!
+ CVS0101 ,VR268528,1,All stud,55,3.08,230,1.75,This year distribute laptops/tablets to students  ,!
+ CVS0101 ,VR268528,2,All dist,8,1.61,224,3.15,This year distribute laptops/tablets to students  ,!
+ CVS0101 ,VR268528,3,NoAccess,12,2.05,248,3.50,This year distribute laptops/tablets to students  ,!
+ CVS0101 ,VR268528,4,None    ,14,2.13,244,2.58,This year distribute laptops/tablets to students  ,!
+ CVS0101 ,VR268528,5,Other   ,12,2.29,234,4.28,This year distribute laptops/tablets to students  ,!
+ CVS0101 ,VR268528,6, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0201 ,VR268532,1,Yes     ,7,1.54,250,5.71,This year internet access: All student already had,!
+ CVS0201 ,VR268532,2,NO RESP ,93,1.54,233,1.35,This year internet access: All student already had,!
+ CVS0201 ,VR268532,3, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0202 ,VR268532,1,Yes     ,23,2.64,227,3.80,This year internet access: Schl assist stud to get,!
+ CVS0202 ,VR268532,2,NO RESP ,77,2.64,236,1.39,This year internet access: Schl assist stud to get,!
+ CVS0202 ,VR268532,3, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0203 ,VR268532,1,Yes     ,48,3.11,231,1.85,This year internet access: Schl provided hotspots ,!
+ CVS0203 ,VR268532,2,NO RESP ,52,3.11,237,2.04,This year internet access: Schl provided hotspots ,!
+ CVS0203 ,VR268532,3, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0204 ,VR268532,1,Yes     ,16,2.18,229,3.67,This year internet access: Schl provided Wi-Fi    ,!
+ CVS0204 ,VR268532,2,NO RESP ,84,2.18,235,1.45,This year internet access: Schl provided Wi-Fi    ,!
+ CVS0204 ,VR268532,3, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0205 ,VR268532,1,Yes     ,25,2.72,239,2.28,This year internet access: Schl did not assist    ,!
+ CVS0205 ,VR268532,2,NO RESP ,75,2.72,232,1.45,This year internet access: Schl did not assist    ,!
+ CVS0205 ,VR268532,3, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0206 ,VR268532,1,Yes     ,9,1.67,235,3.17,This year internet access: Other                  ,!
+ CVS0206 ,VR268532,2,NO RESP ,91,1.67,234,1.45,This year internet access: Other                  ,!
+ CVS0206 ,VR268532,3, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0301 ,VR268534,1,N/A     ,52,3.42,234,1.78,"This year in-person classes canceled, not replaced",!
+ CVS0301 ,VR268534,2,None    ,42,3.46,233,2.22,"This year in-person classes canceled, not replaced",!
+ CVS0301 ,VR268534,3,Some    ,2,0.96,239,6.10,"This year in-person classes canceled, not replaced",!
+ CVS0301 ,VR268534,4,Half    ,0,---,---,---,"This year in-person classes canceled, not replaced",!
+ CVS0301 ,VR268534,5,>Half   ,0,---,---,---,"This year in-person classes canceled, not replaced",!
+ CVS0301 ,VR268534,6,All/most,4,1.12,239,5.72,"This year in-person classes canceled, not replaced",!
+ CVS0301 ,VR268534,7, MISSING,16,2.08,233,2.77,                                           MISSING,!
+ CVS0302 ,VR268535,1,N/A     ,47,3.04,235,1.97,This year in-person classes moved to distnce learn,!
+ CVS0302 ,VR268535,2,None    ,32,2.97,234,2.58,This year in-person classes moved to distnce learn,!
+ CVS0302 ,VR268535,3,Some    ,16,2.05,234,3.65,This year in-person classes moved to distnce learn,!
+ CVS0302 ,VR268535,4,Half    ,0,---,---,---,This year in-person classes moved to distnce learn,!
+ CVS0302 ,VR268535,5,>Half   ,0,0.25,---,---,This year in-person classes moved to distnce learn,!
+ CVS0302 ,VR268535,6,All/most,5,1.29,226,4.63,This year in-person classes moved to distnce learn,!
+ CVS0302 ,VR268535,7, MISSING,16,2.08,233,2.77,                                           MISSING,!
+ CVS0303 ,VR267165,1,N/A     ,48,3.13,235,2.12,This year students completed lessons on their own ,!
+ CVS0303 ,VR267165,2,None    ,31,2.95,233,2.48,This year students completed lessons on their own ,!
+ CVS0303 ,VR267165,3,Some    ,17,1.80,233,2.96,This year students completed lessons on their own ,!
+ CVS0303 ,VR267165,4,Half    ,1,0.39,---,---,This year students completed lessons on their own ,!
+ CVS0303 ,VR267165,5,>Half   ,1,---,---,---,This year students completed lessons on their own ,!
+ CVS0303 ,VR267165,6,All/most,3,1.25,241,8.01,This year students completed lessons on their own ,!
+ CVS0303 ,VR267165,7, MISSING,16,2.13,233,2.73,                                           MISSING,!
+ CVS0304 ,VR267163,1,N/A     ,44,3.25,234,2.07,This year lessons conducted in real-time          ,!
+ CVS0304 ,VR267163,2,None    ,27,2.88,234,3.07,This year lessons conducted in real-time          ,!
+ CVS0304 ,VR267163,3,Some    ,17,2.04,234,3.84,This year lessons conducted in real-time          ,!
+ CVS0304 ,VR267163,4,Half    ,0,---,---,---,This year lessons conducted in real-time          ,!
+ CVS0304 ,VR267163,5,>Half   ,1,0.35,---,---,This year lessons conducted in real-time          ,!
+ CVS0304 ,VR267163,6,All/most,11,1.97,234,4.09,This year lessons conducted in real-time          ,!
+ CVS0304 ,VR267163,7, MISSING,16,2.10,234,2.73,                                           MISSING,!
+ CVS0401 ,VR267172,1,N/A     ,54,3.08,233,1.73,"This year distnce learn, tchr commun w/stud online",!
+ CVS0401 ,VR267172,2,Never   ,6,1.43,221,6.00,"This year distnce learn, tchr commun w/stud online",!
+ CVS0401 ,VR267172,3,1-2/mnth,4,1.19,246,7.82,"This year distnce learn, tchr commun w/stud online",!
+ CVS0401 ,VR267172,4,1-2/week,6,1.49,232,6.61,"This year distnce learn, tchr commun w/stud online",!
+ CVS0401 ,VR267172,5,EveryDay,31,3.26,237,1.99,"This year distnce learn, tchr commun w/stud online",!
+ CVS0401 ,VR267172,6, MISSING,16,2.07,234,2.80,                                           MISSING,!
+ CVS0402 ,VR267173,1,N/A     ,56,3.09,234,1.77,"This year distnce learn, tchr virtual office hours",!
+ CVS0402 ,VR267173,2,Never   ,12,1.80,230,4.61,"This year distnce learn, tchr virtual office hours",!
+ CVS0402 ,VR267173,3,1-2/mnth,3,1.01,232,13.69,"This year distnce learn, tchr virtual office hours",!
+ CVS0402 ,VR267173,4,1-2/week,8,1.71,239,4.86,"This year distnce learn, tchr virtual office hours",!
+ CVS0402 ,VR267173,5,EveryDay,21,2.84,235,2.54,"This year distnce learn, tchr virtual office hours",!
+ CVS0402 ,VR267173,6, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0403 ,VR267175,1,N/A     ,61,3.25,234,1.64,"This year distnce learn, tchr call students       ",!
+ CVS0403 ,VR267175,2,Never   ,16,1.84,234,3.59,"This year distnce learn, tchr call students       ",!
+ CVS0403 ,VR267175,3,1-2/mnth,2,0.87,231,6.08,"This year distnce learn, tchr call students       ",!
+ CVS0403 ,VR267175,4,1-2/week,12,1.84,236,4.88,"This year distnce learn, tchr call students       ",!
+ CVS0403 ,VR267175,5,EveryDay,9,1.95,229,4.87,"This year distnce learn, tchr call students       ",!
+ CVS0403 ,VR267175,6, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0404 ,VR267174,1,N/A     ,48,3.23,233,1.86,"This year distnce learn, tchr communicate w/parent",!
+ CVS0404 ,VR267174,2,Never   ,2,0.87,223,9.71,"This year distnce learn, tchr communicate w/parent",!
+ CVS0404 ,VR267174,3,1-2/mnth,18,2.26,234,2.93,"This year distnce learn, tchr communicate w/parent",!
+ CVS0404 ,VR267174,4,1-2/week,20,2.57,240,2.98,"This year distnce learn, tchr communicate w/parent",!
+ CVS0404 ,VR267174,5,EveryDay,12,1.95,230,3.70,"This year distnce learn, tchr communicate w/parent",!
+ CVS0404 ,VR267174,6, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0501 ,VR239706,1,Yes     ,8,1.47,233,4.90,This schl year modified: Schl year started earlier,!
+ CVS0501 ,VR239706,2,No      ,92,1.47,234,1.40,This schl year modified: Schl year started earlier,!
+ CVS0501 ,VR239706,3, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0502 ,VR239707,1,Yes     ,4,1.13,226,7.58,This schl year modified: Schl year will end later ,!
+ CVS0502 ,VR239707,2,No      ,96,1.13,234,1.29,This schl year modified: Schl year will end later ,!
+ CVS0502 ,VR239707,3, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0503 ,VR239708,1,Yes     ,3,0.76,228,5.00,This schl year modified: Length of schl day extend,!
+ CVS0503 ,VR239708,2,No      ,97,0.76,234,1.34,This schl year modified: Length of schl day extend,!
+ CVS0503 ,VR239708,3, MISSING,16,2.08,234,2.76,                                           MISSING,!
+ CVS0504 ,VR249734,1,Yes     ,1,0.72,219,14.42,This schl year modified: Attendnce sched in shifts,!
+ CVS0504 ,VR249734,2,No      ,99,0.72,234,1.30,This schl year modified: Attendnce sched in shifts,!
+ CVS0504 ,VR249734,3, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0505 ,VR239710,1,Yes     ,54,3.01,232,1.74,This schl year modified: Addl prgrms/class offered,!
+ CVS0505 ,VR239710,2,No      ,46,3.01,236,2.01,This schl year modified: Addl prgrms/class offered,!
+ CVS0505 ,VR239710,3, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS0506 ,VR239711,1,Yes     ,24,2.43,233,2.07,This schl year modified: Option to repeat prev grd,!
+ CVS0506 ,VR239711,2,No      ,76,2.43,234,1.53,This schl year modified: Option to repeat prev grd,!
+ CVS0506 ,VR239711,3, MISSING,16,2.08,235,2.72,                                           MISSING,!
+ CVS0602 ,VR239677,1,Yes     ,88,2.01,235,1.36,Working as administrator at this school 2020-2021 ,!
+ CVS0602 ,VR239677,2,No      ,12,2.01,226,3.11,Working as administrator at this school 2020-2021 ,!
+ CVS0602 ,VR239677,3, MISSING,16,2.08,235,2.76,                                           MISSING,!
+ CVS1901 ,VR374143,1,Before  ,33,2.84,236,2.46,Last year prep for distance: Training tchr/staff  ,!
+ CVS1901 ,VR374143,2,During  ,18,2.45,235,3.19,Last year prep for distance: Training tchr/staff  ,!
+ CVS1901 ,VR374143,3,Both    ,47,3.28,233,2.13,Last year prep for distance: Training tchr/staff  ,!
+ CVS1901 ,VR374143,4,No      ,0,---,---,---,Last year prep for distance: Training tchr/staff  ,!
+ CVS1901 ,VR374143,5,Notoffer,2,1.07,238,4.94,Last year prep for distance: Training tchr/staff  ,!
+ CVS1901 ,VR374143,6, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1902 ,VR374144,1,Before  ,26,2.90,235,3.02,Last year prep for distance: Training stud/parnt  ,!
+ CVS1902 ,VR374144,2,During  ,27,2.74,236,2.25,Last year prep for distance: Training stud/parnt  ,!
+ CVS1902 ,VR374144,3,Both    ,41,2.82,234,2.41,Last year prep for distance: Training stud/parnt  ,!
+ CVS1902 ,VR374144,4,No      ,3,1.00,243,6.60,Last year prep for distance: Training stud/parnt  ,!
+ CVS1902 ,VR374144,5,Notoffer,2,1.07,238,4.94,Last year prep for distance: Training stud/parnt  ,!
+ CVS1902 ,VR374144,6, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1903 ,VR374145,1,Before  ,27,3.08,237,3.00,Last year prep for distance: Digital resources    ,!
+ CVS1903 ,VR374145,2,During  ,25,2.50,233,2.26,Last year prep for distance: Digital resources    ,!
+ CVS1903 ,VR374145,3,Both    ,45,3.22,234,2.22,Last year prep for distance: Digital resources    ,!
+ CVS1903 ,VR374145,4,No      ,0,---,---,---,Last year prep for distance: Digital resources    ,!
+ CVS1903 ,VR374145,5,Notoffer,2,1.07,238,4.94,Last year prep for distance: Digital resources    ,!
+ CVS1903 ,VR374145,6, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1904 ,VR374146,1,Before  ,24,2.67,235,3.12,Last year prep for distance: Paper resources      ,!
+ CVS1904 ,VR374146,2,During  ,26,2.46,235,2.35,Last year prep for distance: Paper resources      ,!
+ CVS1904 ,VR374146,3,Both    ,42,2.84,234,2.47,Last year prep for distance: Paper resources      ,!
+ CVS1904 ,VR374146,4,No      ,5,1.46,233,5.63,Last year prep for distance: Paper resources      ,!
+ CVS1904 ,VR374146,5,Notoffer,3,1.09,239,4.37,Last year prep for distance: Paper resources      ,!
+ CVS1904 ,VR374146,6, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1905 ,VR374147,1,Before  ,26,3.01,237,3.01,Last year prep for distance: Adapt curric plans   ,!
+ CVS1905 ,VR374147,2,During  ,25,2.79,233,2.26,Last year prep for distance: Adapt curric plans   ,!
+ CVS1905 ,VR374147,3,Both    ,46,3.29,235,2.25,Last year prep for distance: Adapt curric plans   ,!
+ CVS1905 ,VR374147,4,No      ,0,---,---,---,Last year prep for distance: Adapt curric plans   ,!
+ CVS1905 ,VR374147,5,Notoffer,3,1.09,239,4.37,Last year prep for distance: Adapt curric plans   ,!
+ CVS1905 ,VR374147,6, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1906 ,VR374148,1,Before  ,25,2.83,236,3.03,Last year prep for distance: Addl support for SD  ,!
+ CVS1906 ,VR374148,2,During  ,24,2.58,234,2.60,Last year prep for distance: Addl support for SD  ,!
+ CVS1906 ,VR374148,3,Both    ,46,3.11,234,2.19,Last year prep for distance: Addl support for SD  ,!
+ CVS1906 ,VR374148,4,No      ,2,0.81,234,4.63,Last year prep for distance: Addl support for SD  ,!
+ CVS1906 ,VR374148,5,Notoffer,3,1.15,243,5.03,Last year prep for distance: Addl support for SD  ,!
+ CVS1906 ,VR374148,6, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1907 ,VR374149,1,Before  ,24,2.80,237,3.09,Last year prep for distance: Addl support for EL  ,!
+ CVS1907 ,VR374149,2,During  ,22,2.48,234,2.77,Last year prep for distance: Addl support for EL  ,!
+ CVS1907 ,VR374149,3,Both    ,38,3.35,234,2.33,Last year prep for distance: Addl support for EL  ,!
+ CVS1907 ,VR374149,4,No      ,13,2.38,234,4.48,Last year prep for distance: Addl support for EL  ,!
+ CVS1907 ,VR374149,5,Notoffer,3,1.10,236,5.12,Last year prep for distance: Addl support for EL  ,!
+ CVS1907 ,VR374149,6, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1401 ,VR374851,1,DstAll  ,57,3.29,230,1.88,Last year distribute laptops/tablets to students  ,!
+ CVS1401 ,VR374851,2,AlDstLrn,12,1.89,235,4.47,Last year distribute laptops/tablets to students  ,!
+ CVS1401 ,VR374851,3,NoAccess,25,3.41,245,3.15,Last year distribute laptops/tablets to students  ,!
+ CVS1401 ,VR374851,4,None    ,3,1.13,245,4.76,Last year distribute laptops/tablets to students  ,!
+ CVS1401 ,VR374851,5,Other   ,3,0.93,236,10.72,Last year distribute laptops/tablets to students  ,!
+ CVS1401 ,VR374851,6, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1501 ,VR375457,1,Yes     ,8,1.75,246,5.82,Last year internet access: All student already had,!
+ CVS1501 ,VR375457,2,NO RESP ,92,1.75,234,1.50,Last year internet access: All student already had,!
+ CVS1501 ,VR375457,3, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1502 ,VR375457,1,Yes     ,42,3.03,231,2.50,Last year internet access: Schl assist stud to get,!
+ CVS1502 ,VR375457,2,NO RESP ,58,3.03,238,1.80,Last year internet access: Schl assist stud to get,!
+ CVS1502 ,VR375457,3, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1503 ,VR375457,1,Yes     ,71,2.87,233,1.54,Last year internet access: Schl provided hotspots ,!
+ CVS1503 ,VR375457,2,NO RESP ,29,2.87,239,3.13,Last year internet access: Schl provided hotspots ,!
+ CVS1503 ,VR375457,3, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1504 ,VR375457,1,Yes     ,26,2.83,228,2.38,Last year internet access: Schl provided Wi-Fi    ,!
+ CVS1504 ,VR375457,2,NO RESP ,74,2.83,237,1.59,Last year internet access: Schl provided Wi-Fi    ,!
+ CVS1504 ,VR375457,3, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1505 ,VR375457,1,Yes     ,9,1.73,234,5.04,Last year internet access: Schl did not assist    ,!
+ CVS1505 ,VR375457,2,NO RESP ,91,1.73,235,1.41,Last year internet access: Schl did not assist    ,!
+ CVS1505 ,VR375457,3, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1506 ,VR375457,1,Yes     ,2,0.96,249,5.55,Last year internet access: Other                  ,!
+ CVS1506 ,VR375457,2,NO RESP ,98,0.96,235,1.43,Last year internet access: Other                  ,!
+ CVS1506 ,VR375457,3, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1601 ,VR375478,1,NA      ,37,2.93,238,2.22,"Last year in-person classes canceled, not replaced",!
+ CVS1601 ,VR375478,2,None    ,47,3.14,235,2.43,"Last year in-person classes canceled, not replaced",!
+ CVS1601 ,VR375478,3,Some    ,8,1.82,230,4.31,"Last year in-person classes canceled, not replaced",!
+ CVS1601 ,VR375478,4,Half    ,1,0.62,217,16.67,"Last year in-person classes canceled, not replaced",!
+ CVS1601 ,VR375478,5,>Half   ,0,---,---,---,"Last year in-person classes canceled, not replaced",!
+ CVS1601 ,VR375478,6,All/most,7,1.58,226,6.27,"Last year in-person classes canceled, not replaced",!
+ CVS1601 ,VR375478,7, MISSING,27,2.38,231,1.98,                                           MISSING,!
+ CVS1602 ,VR375477,1,NA      ,10,1.91,242,3.46,Last year in-person classes moved to distnce learn,!
+ CVS1602 ,VR375477,2,None    ,8,1.86,239,5.53,Last year in-person classes moved to distnce learn,!
+ CVS1602 ,VR375477,3,Some    ,26,2.97,237,3.08,Last year in-person classes moved to distnce learn,!
+ CVS1602 ,VR375477,4,Half    ,5,1.39,238,5.89,Last year in-person classes moved to distnce learn,!
+ CVS1602 ,VR375477,5,>Half   ,5,1.58,246,7.72,Last year in-person classes moved to distnce learn,!
+ CVS1602 ,VR375477,6,All/most,46,2.99,230,1.97,Last year in-person classes moved to distnce learn,!
+ CVS1602 ,VR375477,7, MISSING,26,2.39,231,1.98,                                           MISSING,!
+ CVS1603 ,VR375479,1,NA      ,16,2.60,242,3.35,Last year students completed lessons on their own ,!
+ CVS1603 ,VR375479,2,None    ,22,2.61,233,2.78,Last year students completed lessons on their own ,!
+ CVS1603 ,VR375479,3,Some    ,37,3.48,235,2.83,Last year students completed lessons on their own ,!
+ CVS1603 ,VR375479,4,Half    ,5,1.34,239,4.37,Last year students completed lessons on their own ,!
+ CVS1603 ,VR375479,5,>Half   ,4,1.09,237,7.21,Last year students completed lessons on their own ,!
+ CVS1603 ,VR375479,6,All/most,15,2.31,230,4.54,Last year students completed lessons on their own ,!
+ CVS1603 ,VR375479,7, MISSING,26,2.38,231,2.01,                                           MISSING,!
+ CVS1604 ,VR375476,1,NA      ,8,1.74,247,3.56,Last year lessons conducted in real-time          ,!
+ CVS1604 ,VR375476,2,None    ,5,1.51,232,6.11,Last year lessons conducted in real-time          ,!
+ CVS1604 ,VR375476,3,Some    ,27,2.81,237,2.92,Last year lessons conducted in real-time          ,!
+ CVS1604 ,VR375476,4,Half    ,6,1.52,240,4.08,Last year lessons conducted in real-time          ,!
+ CVS1604 ,VR375476,5,>Half   ,7,1.50,233,3.82,Last year lessons conducted in real-time          ,!
+ CVS1604 ,VR375476,6,All/most,48,2.97,232,2.19,Last year lessons conducted in real-time          ,!
+ CVS1604 ,VR375476,7, MISSING,26,2.39,231,1.99,                                           MISSING,!
+ CVS1701 ,VR375487,1,NA      ,6,1.57,239,5.78,"Last year distnce learn, tchr commun w/stud online",!
+ CVS1701 ,VR375487,2,Never   ,0,---,---,---,"Last year distnce learn, tchr commun w/stud online",!
+ CVS1701 ,VR375487,3,1-2/mnth,1,0.49,---,---,"Last year distnce learn, tchr commun w/stud online",!
+ CVS1701 ,VR375487,4,1-2/week,9,1.72,238,2.92,"Last year distnce learn, tchr commun w/stud online",!
+ CVS1701 ,VR375487,5,EveryDay,84,2.44,234,1.48,"Last year distnce learn, tchr commun w/stud online",!
+ CVS1701 ,VR375487,6, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1702 ,VR375490,1,NA      ,9,1.99,242,5.56,"Last year distnce learn, tchr virtual office hours",!
+ CVS1702 ,VR375490,2,Never   ,1,0.59,---,---,"Last year distnce learn, tchr virtual office hours",!
+ CVS1702 ,VR375490,3,1-2/mnth,2,0.73,236,12.46,"Last year distnce learn, tchr virtual office hours",!
+ CVS1702 ,VR375490,4,1-2/week,20,2.42,238,2.62,"Last year distnce learn, tchr virtual office hours",!
+ CVS1702 ,VR375490,5,EveryDay,69,2.86,233,1.64,"Last year distnce learn, tchr virtual office hours",!
+ CVS1702 ,VR375490,6, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1703 ,VR375488,1,NA      ,20,2.61,244,3.51,"Last year distnce learn, tchr call students       ",!
+ CVS1703 ,VR375488,2,Never   ,15,2.36,240,4.15,"Last year distnce learn, tchr call students       ",!
+ CVS1703 ,VR375488,3,1-2/mnth,9,1.96,231,6.01,"Last year distnce learn, tchr call students       ",!
+ CVS1703 ,VR375488,4,1-2/week,27,2.71,236,2.31,"Last year distnce learn, tchr call students       ",!
+ CVS1703 ,VR375488,5,EveryDay,29,2.63,226,2.66,"Last year distnce learn, tchr call students       ",!
+ CVS1703 ,VR375488,6, MISSING,26,2.35,231,1.98,                                           MISSING,!
+ CVS1704 ,VR375489,1,NA      ,4,1.24,230,4.98,"Last year distnce learn, tchr communicate w/parent",!
+ CVS1704 ,VR375489,2,Never   ,1,0.65,243,9.35,"Last year distnce learn, tchr communicate w/parent",!
+ CVS1704 ,VR375489,3,1-2/mnth,29,3.28,236,2.74,"Last year distnce learn, tchr communicate w/parent",!
+ CVS1704 ,VR375489,4,1-2/week,37,3.52,235,2.43,"Last year distnce learn, tchr communicate w/parent",!
+ CVS1704 ,VR375489,5,EveryDay,28,2.87,234,2.51,"Last year distnce learn, tchr communicate w/parent",!
+ CVS1704 ,VR375489,6, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1801 ,VR375516,1,Yes     ,6,1.69,231,5.01,Last schl year modified: Schl year started earlier,!
+ CVS1801 ,VR375516,2,No      ,94,1.69,235,1.38,Last schl year modified: Schl year started earlier,!
+ CVS1801 ,VR375516,3, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1802 ,VR375517,1,Yes     ,15,1.92,234,3.51,Last schl year modified: Schl year ended later    ,!
+ CVS1802 ,VR375517,2,No      ,85,1.92,235,1.50,Last schl year modified: Schl year ended later    ,!
+ CVS1802 ,VR375517,3, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1803 ,VR375518,1,Yes     ,3,1.03,232,6.69,Last schl year modified: Length of schl day extend,!
+ CVS1803 ,VR375518,2,No      ,97,1.03,235,1.43,Last schl year modified: Length of schl day extend,!
+ CVS1803 ,VR375518,3, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1804 ,VR375519,1,Yes     ,28,3.49,233,3.14,Last schl year modified: Attendnce sched in shifts,!
+ CVS1804 ,VR375519,2,No      ,72,3.49,236,1.39,Last schl year modified: Attendnce sched in shifts,!
+ CVS1804 ,VR375519,3, MISSING,26,2.39,231,1.98,                                           MISSING,!
+ CVS1805 ,VR375520,1,Yes     ,45,3.41,231,2.22,Last schl year modified: Addl prgrms/class offered,!
+ CVS1805 ,VR375520,2,No      ,55,3.41,238,2.04,Last schl year modified: Addl prgrms/class offered,!
+ CVS1805 ,VR375520,3, MISSING,25,2.38,231,1.99,                                           MISSING,!
+ CVS1806 ,VR375521,1,Yes     ,21,2.51,233,2.98,Last schl year modified: Option to repeat prev grd,!
+ CVS1806 ,VR375521,2,No      ,79,2.51,235,1.58,Last schl year modified: Option to repeat prev grd,!
+ CVS1806 ,VR375521,3, MISSING,25,2.38,231,1.99,                                           MISSING,!
+TOTAL  , TOTAL   , 1, TOTAL   , 100, 0.0 , 234, 1.17
+CV00001, VR233341, 1, Yes     ,  70, 0.94, 240, 1.26
+CV00001, VR233341, 2, No      ,  19, 0.81, 231, 1.70
+CV00001, VR233341, 3, DontRemb,  11, 0.53, 218, 2.19
+CV00001, VR233341, 4, MISSING ,   6, 0.66, 207, 5.20
+CV00101, VR233349, 1, This sch,  85, 0.91, 241, 1.31
+CV00101, VR233349, 2, Diff sch,  15, 0.91, 231, 3.00
+CV00101, VR233349, 3, MISSING ,  35, 1.01, 223, 1.56
+CV00201, VR233416, 1, All time,  44, 0.89, 240, 1.71
+CV00201, VR233416, 2, SomeTime,  38, 1.10, 248, 1.39
+CV00201, VR233416, 3, NotAvail,   5, 0.37, 232, 3.53
+CV00201, VR233416, 4, DontRemb,  14, 0.67, 236, 1.79
+CV00201, VR233416, 5, MISSING ,  40, 1.03, 221, 1.50
+CV00202, VR233417, 1, All time,  73, 0.91, 248, 1.22
+CV00202, VR233417, 2, SomeTime,  18, 0.58, 237, 1.70
+CV00202, VR233417, 3, NotAvail,   5, 0.49, 221, 2.94
+CV00202, VR233417, 4, DontRemb,   4, 0.34, 223, 3.08
+CV00202, VR233417, 5, MISSING ,  41, 1.01, 220, 1.53
+CV00203, VR233418, 1, All time,  33, 0.94, 237, 1.24
+CV00203, VR233418, 2, SomeTime,  17, 0.66, 245, 1.84
+CV00203, VR233418, 3, NotAvail,  41, 0.80, 250, 1.53
+CV00203, VR233418, 4, DontRemb,   9, 0.48, 236, 2.49
+CV00204, VR233419, 1, All time,  37, 1.20, 252, 1.94
+CV00203, VR233418, 5, MISSING ,  42, 1.06, 221, 1.54
+CV00204, VR233419, 3, NotAvail,  33, 0.98, 235, 1.31
+CV00204, VR233419, 2, SomeTime,  21, 0.73, 251, 1.44
+CV00204, VR233419, 5, MISSING ,  44, 1.07, 220, 1.50
+CV00204, VR233419, 4, DontRemb,   9, 0.46, 235, 1.90
+CV00205, VR233420, 2, SomeTime,  11, 0.56, 242, 2.05
+CV00205, VR233420, 1, All time,  83, 0.76, 247, 1.14
+CV00205, VR233420, 4, DontRemb,   3, 0.34, 223, 3.88
+CV00205, VR233420, 3, NotAvail,   3, 0.33, 209, 5.42
+CV00206, VR233421, 1, All time,  44, 0.83, 243, 1.52
+CV00205, VR233420, 5, MISSING ,  44, 1.07, 220, 1.49
+CV00206, VR233421, 3, NotAvail,  12, 0.58, 237, 2.12
+CV00206, VR233421, 2, SomeTime,  41, 0.83, 250, 1.39
+CV00206, VR233421, 5, MISSING ,  43, 1.08, 220, 1.45
+CV00206, VR233421, 4, DontRemb,   4, 0.31, 219, 4.82
+CV00401, VR233431, 2, 1-2/mnth,   9, 0.47, 235, 2.31
+CV00401, VR233431, 1, Never   ,  17, 0.67, 233, 1.92
+CV00401, VR233431, 4, EveryDay,  38, 1.10, 248, 1.57
+CV00401, VR233431, 3, 1-2/week,  13, 0.64, 245, 1.84
+CV00401, VR233431, 6, MISSING ,  38, 1.01, 222, 1.58
+CV00401, VR233431, 5, DontRemb,  23, 0.65, 236, 1.53
+CV00402, VR233432, 2, 1-2/mnth,  14, 0.54, 239, 2.11
+CV00402, VR233432, 1, Never   ,  35, 0.99, 245, 1.63
+CV00402, VR233432, 4, EveryDay,  19, 0.59, 238, 1.69
+CV00402, VR233432, 3, 1-2/week,  19, 0.83, 249, 2.16
+CV00402, VR233432, 6, MISSING ,  39, 1.08, 221, 1.54
+CV00402, VR233432, 5, DontRemb,  13, 0.62, 236, 1.74
+CV00403, VR233433, 2, 1-2/mnth,  22, 0.71, 248, 1.65
+CV00403, VR233433, 1, Never   ,  20, 0.89, 239, 1.89
+CV00403, VR233433, 4, EveryDay,  16, 0.59, 236, 2.04
+CV00403, VR233433, 3, 1-2/week,  25, 1.09, 249, 1.70
+CV00403, VR233433, 6, MISSING ,  40, 1.04, 221, 1.64
+CV00403, VR233433, 5, DontRemb,  18, 0.68, 237, 1.95
+CV00501, VR233342, 2, SomeDiff,  31, 0.91, 252, 1.25
+CV00501, VR233342, 1, Lot diff,  36, 0.96, 235, 1.41
+CV00501, VR233342, 4, Lot easy,  15, 0.68, 230, 2.22
+CV00501, VR233342, 3, SomeEasy,  19, 0.61, 241, 1.79
+CV00601, VR251057, 1, Never   ,  19, 0.68, 240, 2.47
+CV00501, VR233342, 5, MISSING ,  36, 1.04, 222, 1.57
+CV00601, VR251057, 3, 1-2/week,  19, 0.60, 249, 1.63
+CV00601, VR251057, 2, 1-2/mnth,  12, 0.42, 242, 2.26
+CV00601, VR251057, 5, DontRemb,  13, 0.55, 234, 2.11
+CV00601, VR251057, 4, EveryDay,  37, 0.98, 238, 1.38
+CV00701, VR233460, 1, Yes     ,  79, 0.83, 242, 1.32
+CV00601, VR251057, 6, MISSING ,  37, 1.05, 223, 1.50
+CV00701, VR233460, 3, MISSING ,  39, 1.05, 222, 1.48
+CV00701, VR233460, 2, No      ,  21, 0.83, 239, 1.76
+CV00702, VR233463, 2, No      ,  42, 0.97, 241, 1.47
+CV00702, VR233463, 1, Yes     ,  58, 0.97, 246, 1.26
+CV00703, VR233466, 1, Yes     ,  43, 1.00, 236, 1.44
+CV00702, VR233463, 3, MISSING ,  44, 1.11, 221, 1.46
+CV00703, VR233466, 3, MISSING ,  44, 1.18, 222, 1.42
+CV00703, VR233466, 2, No      ,  57, 1.00, 248, 1.37
+CV00704, VR233467, 2, No      ,  64, 1.01, 247, 1.19
+CV00704, VR233467, 1, Yes     ,  36, 1.01, 239, 1.67
+CV00901, VR233447, 1, Def cant,   6, 0.32, 204, 2.28
+CV00704, VR233467, 3, MISSING ,  46, 1.21, 222, 1.41
+CV00901, VR233447, 3, Maybe   ,  39, 0.81, 231, 1.10
+CV00901, VR233447, 2, ProbCant,   7, 0.37, 225, 2.20
+CV00901, VR233447, 5, Def can ,  23, 0.69, 247, 2.17
+CV00901, VR233447, 4, Prob Can,  25, 0.70, 247, 1.44
+CV00902, VR233448, 1, Def cant,   5, 0.30, 214, 3.14
+CV00901, VR233447, 6, MISSING ,  11, 0.69, 209, 2.65
+CV00902, VR233448, 3, Maybe   ,  16, 0.49, 232, 1.55
+CV00902, VR233448, 2, ProbCant,   4, 0.34, 215, 2.96
+CV00902, VR233448, 5, Def can ,  54, 0.72, 241, 1.31
+CV00902, VR233448, 4, Prob Can,  21, 0.46, 242, 1.53
+CV00903, VR233449, 1, Def cant,  10, 0.42, 220, 2.02
+CV00902, VR233448, 6, MISSING ,  12, 0.76, 207, 2.88
+CV00903, VR233449, 3, Maybe   ,  30, 0.67, 236, 1.55
+CV00903, VR233449, 2, ProbCant,   9, 0.38, 233, 2.09
+CV00903, VR233449, 5, Def can ,  28, 0.66, 244, 1.44
+CV00903, VR233449, 4, Prob Can,  23, 0.54, 245, 1.46
+CVS0001, VR267150, 1, Before  ,  42, 3.10, 236, 2.09
+CV00903, VR233449, 6, MISSING ,  14, 0.78, 207, 2.78
+CVS0001, VR267150, 3, Both    ,  27, 2.94, 230, 2.92
+CVS0001, VR267150, 2, During  ,   1, 0.65, 227, 6.51
+CVS0001, VR267150, 5, NotOffer,  29, 2.97, 234, 2.67
+CVS0001, VR267150, 4, No      ,   1, 0.79, 243, 2.34
+CVS0002, VR267151, 1, Before  ,  36, 2.71, 235, 2.28
+CVS0001, VR267150, 6, MISSING ,  16, 2.11, 235, 2.72
+CVS0002, VR267151, 3, Both    ,  20, 2.83, 227, 3.53
+CVS0002, VR267151, 2, During  ,   8, 1.80, 237, 5.16
+CVS0002, VR267151, 5, NotOffer,  28, 2.90, 234, 2.70
+CVS0002, VR267151, 4, No      ,   7, 1.69, 240, 4.36
+CVS0003, VR267152, 1, Before  ,  36, 2.88, 234, 2.19
+CVS0002, VR267151, 6, MISSING ,  16, 2.11, 235, 2.72
+CVS0003, VR267152, 3, Both    ,  27, 2.97, 231, 2.64
+CVS0003, VR267152, 2, During  ,   6, 1.32, 237, 5.10
+CVS0003, VR267152, 5, NotOffer,  29, 3.01, 235, 2.64
+CVS0003, VR267152, 4, No      ,   2, 0.93, 238, 6.68
+CVS0004, VR267156, 1, Before  ,  33, 2.81, 236, 2.42
+CVS0003, VR267152, 6, MISSING ,  16, 2.11, 235, 2.72
+CVS0004, VR267156, 3, Both    ,  21, 2.44, 230, 2.55
+CVS0004, VR267156, 2, During  ,   9, 1.68, 233, 5.33
+CVS0004, VR267156, 5, NotOffer,  28, 3.05, 236, 2.65
+CVS0004, VR267156, 4, No      ,   8, 1.57, 229, 4.02
+CVS0005, VR267154, 1, Before  ,  35, 3.17, 235, 2.23
+CVS0004, VR267156, 6, MISSING ,  16, 2.11, 235, 2.72
+CVS0005, VR267154, 3, Both    ,  26, 2.79, 230, 2.73
+CVS0005, VR267154, 2, During  ,   7, 1.57, 236, 5.35
+CVS0005, VR267154, 5, NotOffer,  29, 3.11, 236, 2.59
+CVS0005, VR267154, 4, No      ,   3, 1.01, 230, 8.18
+CVS0006, VR267155, 1, Before  ,  30, 2.90, 235, 2.64
+CVS0005, VR267154, 6, MISSING ,  16, 2.11, 235, 2.72
+CVS0006, VR267155, 3, Both    ,  31, 3.08, 229, 2.32
+CVS0006, VR267155, 2, During  ,   7, 1.54, 238, 5.02
+CVS0006, VR267155, 5, NotOffer,  27, 2.90, 236, 2.84
+CVS0006, VR267155, 4, No      ,   5, 1.34, 238, 4.11
+CVS0007, VR267153, 1, Before  ,  29, 2.88, 233, 2.90
+CVS0006, VR267155, 6, MISSING ,  16, 2.11, 235, 2.72
+CVS0007, VR267153, 3, Both    ,  26, 2.97, 230, 2.60
+CVS0007, VR267153, 2, During  ,   8, 1.51, 238, 5.40
+CVS0007, VR267153, 5, NotOffer,  27, 2.90, 234, 2.76
+CVS0007, VR267153, 4, No      ,  10, 1.85, 241, 2.74
+CVS0101, VR268528, 1, All stud,  55, 3.08, 230, 1.75
+CVS0007, VR267153, 6, MISSING ,  16, 2.11, 234, 2.73
+CVS0101, VR268528, 3, NoAccess,  12, 2.05, 248, 3.50
+CVS0101, VR268528, 2, All dist,   8, 1.61, 224, 3.15
+CVS0101, VR268528, 5, Other   ,  12, 2.29, 234, 4.28
+CVS0101, VR268528, 4, None    ,  14, 2.13, 244, 2.58
+CVS0201, VR268532, 1, Yes     ,   7, 1.54, 250, 5.71
+CVS0101, VR268528, 6, MISSING ,  16, 2.08, 235, 2.76
+CVS0201, VR268532, 3, MISSING ,  16, 2.08, 235, 2.76
+CVS0201, VR268532, 2, NO RESP ,  93, 1.54, 233, 1.35
+CVS0202, VR268532, 2, NO RESP ,  77, 2.64, 236, 1.39
+CVS0202, VR268532, 1, Yes     ,  23, 2.64, 227, 3.80
+CVS0203, VR268532, 1, Yes     ,  48, 3.11, 231, 1.85
+CVS0202, VR268532, 3, MISSING ,  16, 2.08, 235, 2.76
+CVS0203, VR268532, 3, MISSING ,  16, 2.08, 235, 2.76
+CVS0203, VR268532, 2, NO RESP ,  52, 3.11, 237, 2.04
+CVS0204, VR268532, 2, NO RESP ,  84, 2.18, 235, 1.45
+CVS0204, VR268532, 1, Yes     ,  16, 2.18, 229, 3.67
+CVS0205, VR268532, 1, Yes     ,  25, 2.72, 239, 2.28
+CVS0204, VR268532, 3, MISSING ,  16, 2.08, 235, 2.76
+CVS0205, VR268532, 3, MISSING ,  16, 2.08, 235, 2.76
+CVS0205, VR268532, 2, NO RESP ,  75, 2.72, 232, 1.45
+CVS0206, VR268532, 2, NO RESP ,  91, 1.67, 234, 1.45
+CVS0206, VR268532, 1, Yes     ,   9, 1.67, 235, 3.17
+CVS0301, VR268534, 1, N/A     ,  52, 3.42, 234, 1.78
+CVS0206, VR268532, 3, MISSING ,  16, 2.08, 235, 2.76
+CVS0301, VR268534, 3, Some    ,   2, 0.96, 239, 6.10
+CVS0301, VR268534, 2, None    ,  42, 3.46, 233, 2.22
+CVS0301, VR268534, 5, >Half   ,   0,null,null,null
+CVS0301, VR268534, 4, Half    ,   0,null,null,null
+CVS0301, VR268534, 7, MISSING ,  16, 2.08, 233, 2.77
+CVS0301, VR268534, 6, All/most,   4, 1.12, 239, 5.72
+CVS0302, VR268535, 2, None    ,  32, 2.97, 234, 2.58
+CVS0302, VR268535, 1, N/A     ,  47, 3.04, 235, 1.97
+CVS0302, VR268535, 4, Half    ,   0,null,null,null
+CVS0302, VR268535, 3, Some    ,  16, 2.05, 234, 3.65
+CVS0302, VR268535, 6, All/most,   5, 1.29, 226, 4.63
+CVS0302, VR268535, 5, >Half   ,   0, 0.25,null,null
+CVS0303, VR267165, 1, N/A     ,  48, 3.13, 235, 2.12
+CVS0302, VR268535, 7, MISSING ,  16, 2.08, 233, 2.77
+CVS0303, VR267165, 3, Some    ,  17, 1.80, 233, 2.96
+CVS0303, VR267165, 2, None    ,  31, 2.95, 233, 2.48
+CVS0303, VR267165, 5, >Half   ,   1,null,null,null
+CVS0303, VR267165, 4, Half    ,   1, 0.39,null,null
+CVS0303, VR267165, 7, MISSING ,  16, 2.13, 233, 2.73
+CVS0303, VR267165, 6, All/most,   3, 1.25, 241, 8.01
+CVS0304, VR267163, 2, None    ,  27, 2.88, 234, 3.07
+CVS0304, VR267163, 1, N/A     ,  44, 3.25, 234, 2.07
+CVS0304, VR267163, 4, Half    ,   0,null,null,null
+CVS0304, VR267163, 3, Some    ,  17, 2.04, 234, 3.84
+CVS0304, VR267163, 6, All/most,  11, 1.97, 234, 4.09
+CVS0304, VR267163, 5, >Half   ,   1, 0.35,null,null
+CVS0401, VR267172, 1, N/A     ,  54, 3.08, 233, 1.73
+CVS0304, VR267163, 7, MISSING ,  16, 2.10, 234, 2.73
+CVS0401, VR267172, 3, 1-2/mnth,   4, 1.19, 246, 7.82
+CVS0401, VR267172, 2, Never   ,   6, 1.43, 221, 6.00
+CVS0401, VR267172, 5, EveryDay,  31, 3.26, 237, 1.99
+CVS0401, VR267172, 4, 1-2/week,   6, 1.49, 232, 6.61
+CVS0402, VR267173, 1, N/A     ,  56, 3.09, 234, 1.77
+CVS0401, VR267172, 6, MISSING ,  16, 2.07, 234, 2.80
+CVS0402, VR267173, 3, 1-2/mnth,   3, 1.01, 232, 13.69
+CVS0402, VR267173, 2, Never   ,  12, 1.80, 230, 4.61
+CVS0402, VR267173, 5, EveryDay,  21, 2.84, 235, 2.54
+CVS0402, VR267173, 4, 1-2/week,   8, 1.71, 239, 4.86
+CVS0403, VR267175, 1, N/A     ,  61, 3.25, 234, 1.64
+CVS0402, VR267173, 6, MISSING ,  16, 2.08, 235, 2.76
+CVS0403, VR267175, 3, 1-2/mnth,   2, 0.87, 231, 6.08
+CVS0403, VR267175, 2, Never   ,  16, 1.84, 234, 3.59
+CVS0403, VR267175, 5, EveryDay,   9, 1.95, 229, 4.87
+CVS0403, VR267175, 4, 1-2/week,  12, 1.84, 236, 4.88
+CVS0404, VR267174, 1, N/A     ,  48, 3.23, 233, 1.86
+CVS0403, VR267175, 6, MISSING ,  16, 2.08, 235, 2.76
+CVS0404, VR267174, 3, 1-2/mnth,  18, 2.26, 234, 2.93
+CVS0404, VR267174, 2, Never   ,   2, 0.87, 223, 9.71
+CVS0404, VR267174, 5, EveryDay,  12, 1.95, 230, 3.70
+CVS0404, VR267174, 4, 1-2/week,  20, 2.57, 240, 2.98
+CVS0501, VR239706, 1, Yes     ,   8, 1.47, 233, 4.90
+CVS0404, VR267174, 6, MISSING ,  16, 2.08, 235, 2.76
+CVS0501, VR239706, 3, MISSING ,  16, 2.08, 235, 2.76
+CVS0501, VR239706, 2, No      ,  92, 1.47, 234, 1.40
+CVS0502, VR239707, 2, No      ,  96, 1.13, 234, 1.29
+CVS0502, VR239707, 1, Yes     ,   4, 1.13, 226, 7.58
+CVS0503, VR239708, 1, Yes     ,   3, 0.76, 228, 5.00
+CVS0502, VR239707, 3, MISSING ,  16, 2.08, 235, 2.76
+CVS0503, VR239708, 3, MISSING ,  16, 2.08, 234, 2.76
+CVS0503, VR239708, 2, No      ,  97, 0.76, 234, 1.34
+CVS0504, VR249734, 2, No      ,  99, 0.72, 234, 1.30
+CVS0504, VR249734, 1, Yes     ,   1, 0.72, 219, 14.42
+CVS0505, VR239710, 1, Yes     ,  54, 3.01, 232, 1.74
+CVS0504, VR249734, 3, MISSING ,  16, 2.08, 235, 2.76
+CVS0505, VR239710, 3, MISSING ,  16, 2.08, 235, 2.76
+CVS0505, VR239710, 2, No      ,  46, 3.01, 236, 2.01
+CVS0506, VR239711, 2, No      ,  76, 2.43, 234, 1.53
+CVS0506, VR239711, 1, Yes     ,  24, 2.43, 233, 2.07
+CVS0602, VR239677, 1, Yes     ,  88, 2.01, 235, 1.36
+CVS0506, VR239711, 3, MISSING ,  16, 2.08, 235, 2.72
+CVS0602, VR239677, 3, MISSING ,  16, 2.08, 235, 2.76
+CVS0602, VR239677, 2, No      ,  12, 2.01, 226, 3.11
+CVS1901, VR374143, 2, During  ,  18, 2.45, 235, 3.19
+CVS1901, VR374143, 1, Before  ,  33, 2.84, 236, 2.46
+CVS1901, VR374143, 4, No      ,   0,null,null,null
+CVS1901, VR374143, 3, Both    ,  47, 3.28, 233, 2.13
+CVS1901, VR374143, 6, MISSING ,  25, 2.38, 231, 1.99
+CVS1901, VR374143, 5, Notoffer,   2, 1.07, 238, 4.94
+CVS1902, VR374144, 2, During  ,  27, 2.74, 236, 2.25
+CVS1902, VR374144, 1, Before  ,  26, 2.90, 235, 3.02
+CVS1902, VR374144, 4, No      ,   3, 1.00, 243, 6.60
+CVS1902, VR374144, 3, Both    ,  41, 2.82, 234, 2.41
+CVS1902, VR374144, 6, MISSING ,  25, 2.38, 231, 1.99
+CVS1902, VR374144, 5, Notoffer,   2, 1.07, 238, 4.94
+CVS1903, VR374145, 2, During  ,  25, 2.50, 233, 2.26
+CVS1903, VR374145, 1, Before  ,  27, 3.08, 237, 3.00
+CVS1903, VR374145, 4, No      ,   0,null,null,null
+CVS1903, VR374145, 3, Both    ,  45, 3.22, 234, 2.22
+CVS1903, VR374145, 6, MISSING ,  25, 2.38, 231, 1.99
+CVS1903, VR374145, 5, Notoffer,   2, 1.07, 238, 4.94
+CVS1904, VR374146, 2, During  ,  26, 2.46, 235, 2.35
+CVS1904, VR374146, 1, Before  ,  24, 2.67, 235, 3.12
+CVS1904, VR374146, 4, No      ,   5, 1.46, 233, 5.63
+CVS1904, VR374146, 3, Both    ,  42, 2.84, 234, 2.47
+CVS1904, VR374146, 6, MISSING ,  25, 2.38, 231, 1.99
+CVS1904, VR374146, 5, Notoffer,   3, 1.09, 239, 4.37
+CVS1905, VR374147, 2, During  ,  25, 2.79, 233, 2.26
+CVS1905, VR374147, 1, Before  ,  26, 3.01, 237, 3.01
+CVS1905, VR374147, 4, No      ,   0,null,null,null
+CVS1905, VR374147, 3, Both    ,  46, 3.29, 235, 2.25
+CVS1905, VR374147, 6, MISSING ,  25, 2.38, 231, 1.99
+CVS1905, VR374147, 5, Notoffer,   3, 1.09, 239, 4.37
+CVS1906, VR374148, 2, During  ,  24, 2.58, 234, 2.60
+CVS1906, VR374148, 1, Before  ,  25, 2.83, 236, 3.03
+CVS1906, VR374148, 4, No      ,   2, 0.81, 234, 4.63
+CVS1906, VR374148, 3, Both    ,  46, 3.11, 234, 2.19
+CVS1906, VR374148, 6, MISSING ,  25, 2.38, 231, 1.99
+CVS1906, VR374148, 5, Notoffer,   3, 1.15, 243, 5.03
+CVS1907, VR374149, 2, During  ,  22, 2.48, 234, 2.77
+CVS1907, VR374149, 1, Before  ,  24, 2.80, 237, 3.09
+CVS1907, VR374149, 4, No      ,  13, 2.38, 234, 4.48
+CVS1907, VR374149, 3, Both    ,  38, 3.35, 234, 2.33
+CVS1907, VR374149, 6, MISSING ,  25, 2.38, 231, 1.99
+CVS1907, VR374149, 5, Notoffer,   3, 1.10, 236, 5.12
+CVS1401, VR374851, 2, AlDstLrn,  12, 1.89, 235, 4.47
+CVS1401, VR374851, 1, DstAll  ,  57, 3.29, 230, 1.88
+CVS1401, VR374851, 4, None    ,   3, 1.13, 245, 4.76
+CVS1401, VR374851, 3, NoAccess,  25, 3.41, 245, 3.15
+CVS1401, VR374851, 6, MISSING ,  25, 2.38, 231, 1.99
+CVS1401, VR374851, 5, Other   ,   3, 0.93, 236, 10.72
+CVS1501, VR375457, 2, NO RESP ,  92, 1.75, 234, 1.50
+CVS1501, VR375457, 1, Yes     ,   8, 1.75, 246, 5.82
+CVS1502, VR375457, 1, Yes     ,  42, 3.03, 231, 2.50
+CVS1501, VR375457, 3, MISSING ,  25, 2.38, 231, 1.99
+CVS1502, VR375457, 3, MISSING ,  25, 2.38, 231, 1.99
+CVS1502, VR375457, 2, NO RESP ,  58, 3.03, 238, 1.80
+CVS1503, VR375457, 2, NO RESP ,  29, 2.87, 239, 3.13
+CVS1503, VR375457, 1, Yes     ,  71, 2.87, 233, 1.54
+CVS1504, VR375457, 1, Yes     ,  26, 2.83, 228, 2.38
+CVS1503, VR375457, 3, MISSING ,  25, 2.38, 231, 1.99
+CVS1504, VR375457, 3, MISSING ,  25, 2.38, 231, 1.99
+CVS1504, VR375457, 2, NO RESP ,  74, 2.83, 237, 1.59
+CVS1505, VR375457, 2, NO RESP ,  91, 1.73, 235, 1.41
+CVS1505, VR375457, 1, Yes     ,   9, 1.73, 234, 5.04
+CVS1506, VR375457, 1, Yes     ,   2, 0.96, 249, 5.55
+CVS1505, VR375457, 3, MISSING ,  25, 2.38, 231, 1.99
+CVS1506, VR375457, 3, MISSING ,  25, 2.38, 231, 1.99
+CVS1506, VR375457, 2, NO RESP ,  98, 0.96, 235, 1.43
+CVS1601, VR375478, 2, None    ,  47, 3.14, 235, 2.43
+CVS1601, VR375478, 1, NA      ,  37, 2.93, 238, 2.22
+CVS1601, VR375478, 4, Half    ,   1, 0.62, 217, 16.67
+CVS1601, VR375478, 3, Some    ,   8, 1.82, 230, 4.31
+CVS1601, VR375478, 6, All/most,   7, 1.58, 226, 6.27
+CVS1601, VR375478, 5, >Half   ,   0,null,null,null
+CVS1602, VR375477, 1, NA      ,  10, 1.91, 242, 3.46
+CVS1601, VR375478, 7, MISSING ,  27, 2.38, 231, 1.98
+CVS1602, VR375477, 3, Some    ,  26, 2.97, 237, 3.08
+CVS1602, VR375477, 2, None    ,   8, 1.86, 239, 5.53
+CVS1602, VR375477, 5, >Half   ,   5, 1.58, 246, 7.72
+CVS1602, VR375477, 4, Half    ,   5, 1.39, 238, 5.89
+CVS1602, VR375477, 7, MISSING ,  26, 2.39, 231, 1.98
+CVS1602, VR375477, 6, All/most,  46, 2.99, 230, 1.97
+CVS1603, VR375479, 2, None    ,  22, 2.61, 233, 2.78
+CVS1603, VR375479, 1, NA      ,  16, 2.60, 242, 3.35
+CVS1603, VR375479, 4, Half    ,   5, 1.34, 239, 4.37
+CVS1603, VR375479, 3, Some    ,  37, 3.48, 235, 2.83
+CVS1603, VR375479, 6, All/most,  15, 2.31, 230, 4.54
+CVS1603, VR375479, 5, >Half   ,   4, 1.09, 237, 7.21
+CVS1604, VR375476, 1, NA      ,   8, 1.74, 247, 3.56
+CVS1603, VR375479, 7, MISSING ,  26, 2.38, 231, 2.01
+CVS1604, VR375476, 3, Some    ,  27, 2.81, 237, 2.92
+CVS1604, VR375476, 2, None    ,   5, 1.51, 232, 6.11
+CVS1604, VR375476, 5, >Half   ,   7, 1.50, 233, 3.82
+CVS1604, VR375476, 4, Half    ,   6, 1.52, 240, 4.08
+CVS1604, VR375476, 7, MISSING ,  26, 2.39, 231, 1.99
+CVS1604, VR375476, 6, All/most,  48, 2.97, 232, 2.19
+CVS1701, VR375487, 2, Never   ,   0,null,null,null
+CVS1701, VR375487, 1, NA      ,   6, 1.57, 239, 5.78
+CVS1701, VR375487, 4, 1-2/week,   9, 1.72, 238, 2.92
+CVS1701, VR375487, 3, 1-2/mnth,   1, 0.49,null,null
+CVS1701, VR375487, 6, MISSING ,  25, 2.38, 231, 1.99
+CVS1701, VR375487, 5, EveryDay,  84, 2.44, 234, 1.48
+CVS1702, VR375490, 2, Never   ,   1, 0.59,null,null
+CVS1702, VR375490, 1, NA      ,   9, 1.99, 242, 5.56
+CVS1702, VR375490, 4, 1-2/week,  20, 2.42, 238, 2.62
+CVS1702, VR375490, 3, 1-2/mnth,   2, 0.73, 236, 12.46
+CVS1702, VR375490, 6, MISSING ,  25, 2.38, 231, 1.99
+CVS1702, VR375490, 5, EveryDay,  69, 2.86, 233, 1.64
+CVS1703, VR375488, 2, Never   ,  15, 2.36, 240, 4.15
+CVS1703, VR375488, 1, NA      ,  20, 2.61, 244, 3.51
+CVS1703, VR375488, 4, 1-2/week,  27, 2.71, 236, 2.31
+CVS1703, VR375488, 3, 1-2/mnth,   9, 1.96, 231, 6.01
+CVS1703, VR375488, 6, MISSING ,  26, 2.35, 231, 1.98
+CVS1703, VR375488, 5, EveryDay,  29, 2.63, 226, 2.66
+CVS1704, VR375489, 2, Never   ,   1, 0.65, 243, 9.35
+CVS1704, VR375489, 1, NA      ,   4, 1.24, 230, 4.98
+CVS1704, VR375489, 4, 1-2/week,  37, 3.52, 235, 2.43
+CVS1704, VR375489, 3, 1-2/mnth,  29, 3.28, 236, 2.74
+CVS1704, VR375489, 6, MISSING ,  25, 2.38, 231, 1.99
+CVS1704, VR375489, 5, EveryDay,  28, 2.87, 234, 2.51
+CVS1801, VR375516, 2, No      ,  94, 1.69, 235, 1.38
+CVS1801, VR375516, 1, Yes     ,   6, 1.69, 231, 5.01
+CVS1802, VR375517, 1, Yes     ,  15, 1.92, 234, 3.51
+CVS1801, VR375516, 3, MISSING ,  25, 2.38, 231, 1.99
+CVS1802, VR375517, 3, MISSING ,  25, 2.38, 231, 1.99
+CVS1802, VR375517, 2, No      ,  85, 1.92, 235, 1.50
+CVS1803, VR375518, 2, No      ,  97, 1.03, 235, 1.43
+CVS1803, VR375518, 1, Yes     ,   3, 1.03, 232, 6.69
+CVS1804, VR375519, 1, Yes     ,  28, 3.49, 233, 3.14
+CVS1803, VR375518, 3, MISSING ,  25, 2.38, 231, 1.99
+CVS1804, VR375519, 3, MISSING ,  26, 2.39, 231, 1.98
+CVS1804, VR375519, 2, No      ,  72, 3.49, 236, 1.39
+CVS1805, VR375520, 2, No      ,  55, 3.41, 238, 2.04
+CVS1805, VR375520, 1, Yes     ,  45, 3.41, 231, 2.22
+CVS1806, VR375521, 1, Yes     ,  21, 2.51, 233, 2.98
+CVS1805, VR375520, 3, MISSING ,  25, 2.38, 231, 1.99
+CVS1806, VR375521, 3, MISSING ,  25, 2.38, 231, 1.99
+CVS1806, VR375521, 2, No      ,  79, 2.51, 235, 1.58
