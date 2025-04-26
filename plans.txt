@@ -35,9 +35,23 @@ review:
 
 -------------------------------- current work:---------------------------------------------------
   Analyze the data, see what patterns I can find.
+From here I want to start incorporating python, pandas, and matplotlib to work with and visualize the data.
+I'd like to see which questions seemed to reveal the biggest varience in scores, ie. which resources have 
+the greatest impact for these 9th graders.
 
 ------------ TODO:
-  
+1- make a base python file, connect to the database
+2- use docker-compose for setup and to run python once sql files are finished
+3- discovery: now work on the python file, organize data and use matplotlip to visualize. This step will 
+  take some time and fiddling to see what patterns I can find.
+4- demonstrate: show what I've found by saving plots as images and creating an MD file to display those
+  images and describe the information gleamed from them. Keep this file brief.
+5- write a README.md file to describe setup and them describe results from the project. In the results
+  section of this file, reference the file created in the last step and give a more in depth description
+  description of what I did and what the graphs mean. If I want to include images in the README, let
+  them exist in the folder permanently to be referenced without needing to run the program so someone 
+  can get the gist without running it and understand that running the project will generate the reference 
+  file.
 
  
 -------------------------------------------------------------------------------------------------
