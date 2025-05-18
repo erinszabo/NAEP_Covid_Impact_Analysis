@@ -1,0 +1,23 @@
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
+      - ./data:/var/lib/mysql-files
+    ports:
+      - "3306:3306"
+
+  app:
+    build: ./app
+    container_name: python-app
+    depends_on:
+      - mysql
+    volumes:
+      - ./output:/app/output
+      - ./data:/app/data
+    command: ["./project.sh"]
+ 

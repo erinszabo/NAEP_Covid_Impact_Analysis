@@ -1,26 +1,21 @@
 
  --------------------------------SETUP:------------------------------------------------------------
+  now just using docker-compose instead
 
--- docker build -t mysql_db .
+----------------- docker-compose ------------------------
+-- docker-compose build
+-- docker compose up 
+doing these separately is working more consistently than:
+-- docker-compose up --build
 
--- docker run -d mysql_db
--- ^^ -d detached so that it doesn't take up the terminal. remove this to troubleshoot 
+to clean data too:
+-- docker-compose down --volumes
 
- then list the containers so I can get the <containerID>
--- docker container ls
+to restart in one command:
+-- docker-compose down && docker-compose up --build
 
---------- to jump straight to sql:
-docker exec -it <containerID> mysql -u root -proot
+---------------------------------------------------------
 
------------ to jump into linux first:
--- docker exec -it <containerID> /bin/bash
-
- now should be running inside container, now you can cd into the dir created in the dockerfile 
-   and now we can access mysql:
-
--- cd docker-entrypoint-initdb.d
--- mysql -proot
-----------------
 ----------------------------------- SQL -----------------------------------------------------------
 review:
 -- use surveyDB;
@@ -34,16 +29,24 @@ review:
 -- Ctrl-D to exit mySQL
 
 -------------------------------- current work:---------------------------------------------------
-  Analyze the data, see what patterns I can find.
-From here I want to start incorporating python, pandas, and matplotlib to work with and visualize the data.
-I'd like to see which questions seemed to reveal the biggest varience in scores, ie. which resources have 
-the greatest impact for these 9th graders.
+ next steps:
+ a. decide if I want to exclude rows with missing information
+  i. if I do, refactor to do this work in python and get rid of the 04 sql file
+ b. look into the capabilities of seaborn
 
------------- TODO:
-1- make a base python file, connect to the database
-2- use docker-compose for setup and to run python once sql files are finished
+ ---- at some point TODOs:
+ - consider creating a make file, then I can have a 'make clean' function 
+   to remove any potentially unneccessary files, especially while developing
+
+
+
+------------ Big Picture TODOs:
+X 1- make a base python file, connect to the database
+X 2- use docker-compose for setup and to run python once sql files are finished
 3- discovery: now work on the python file, organize data and use matplotlip to visualize. This step will 
   take some time and fiddling to see what patterns I can find.
+  a. I'd like to see which questions seemed to reveal the biggest varience in scores, ie. which resources have 
+    the greatest impact for these 9th graders.
 4- demonstrate: show what I've found by saving plots as images and creating an MD file to display those
   images and describe the information gleamed from them. Keep this file brief.
 5- write a README.md file to describe setup and them describe results from the project. In the results

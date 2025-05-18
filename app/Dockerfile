@@ -1,7 +1,6 @@
-FROM mysql:latest
-
-ENV MYSQL_ROOT_PASSWORD=root
-
-COPY ./sql/ /docker-entrypoint-initdb.d/
-COPY ./data/ /var/lib/mysql-files/
-
+FROM python:3.11-slim
+WORKDIR /app
+COPY . .
+RUN apt-get update && apt-get install -y default-mysql-client
+RUN pip install -r requirements.txt
+RUN chmod +x project.sh
