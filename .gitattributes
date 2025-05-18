@@ -1,0 +1,2 @@
+*.sql linguist-language=SQL
+# want to force Github to recognize SQL work
