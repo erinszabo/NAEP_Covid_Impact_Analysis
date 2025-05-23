@@ -1,13 +1,11 @@
-# Makefile for managing the survey-data-project
-
-.PHONY: run clean down rebuild deepclean
+.PHONY: run clean down rebuild deepclean start stop
 
 # Start services
-run:
+run start:
 	docker-compose up --build
 
 # Stop services
-down:
+down stop:
 	docker-compose down
 
 # Rebuild everything from scratch

@@ -1,7 +1,8 @@
 
  --------------------------------SETUP:------------------------------------------------------------
-  now just using docker-compose instead
-
+ now with Makefile: 
+-- make start
+-- make stop
 ----------------- docker-compose ------------------------
 -- docker-compose build
 -- docker compose up 
