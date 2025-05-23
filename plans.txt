@@ -1,5 +1,6 @@
 
  --------------------------------SETUP:------------------------------------------------------------
+(make sure Docker is running of course)
  now with Makefile: 
 -- make start
 -- make stop
@@ -36,10 +37,8 @@ review:
  b. look into the capabilities of seaborn
 
  ---- at some point TODOs:
- - consider creating a make file, then I can have a 'make clean' function 
-   to remove any potentially unneccessary files, especially while developing
-
-
+ - when project is close to complete, change make start to run detached with -d
+    (  docker-compose up --build -d  )
 
 ------------ Big Picture TODOs:
 X 1- make a base python file, connect to the database
@@ -60,3 +59,6 @@ X 2- use docker-compose for setup and to run python once sql files are finished
  
 -------------------------------------------------------------------------------------------------
 
+3-a. Notes:
+
+----------------------------------------------------------

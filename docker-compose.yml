@@ -19,5 +19,5 @@ services:
     volumes:
       - ./output:/app/output
       - ./data:/app/data
-    command: ["./project.sh"]
+    entrypoint: ["./project.sh"]
  

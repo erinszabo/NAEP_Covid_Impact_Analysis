@@ -1,7 +1,13 @@
-.PHONY: run clean down rebuild deepclean start stop
+.PHONY: run clean up down rebuild deepclean start stop
+
+# Run project to build files, then stop and remove container
+run:
+	echo "Building and running project..."
+	docker-compose run --rm app
+	echo "Project Complete. See output."
 
 # Start services
-run start:
+up start:
 	docker-compose up --build
 
 # Stop services
