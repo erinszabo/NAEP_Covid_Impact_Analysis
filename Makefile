@@ -1,6 +1,6 @@
 # Makefile for managing the survey-data-project
 
-.PHONY: run clean down rebuild export-csv test
+.PHONY: run clean down rebuild deepclean
 
 # Start services
 run:
@@ -19,3 +19,7 @@ rebuild:
 clean:
 	rm -f output/*.csv output/*.png output/*.md
 
+# Complete clean slate, but potentially destructive
+deepclean:
+	rm -f output/*.csv output/*.png output/*.md
+	docker-compose down --volumes
