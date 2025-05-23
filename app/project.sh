@@ -2,7 +2,7 @@
 
 
 echo "Waiting for MySQL..."
-sleep 20
+sleep 10
 
 # now run project
 exec python analyze_survey.py

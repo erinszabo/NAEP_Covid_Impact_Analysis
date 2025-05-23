@@ -2,9 +2,16 @@
 
 # Run project to build files, then stop and remove container
 run:
-	echo "Building and running project..."
+	@echo ""
+	@echo "=================================================="
+	@echo "Building and running project..."
+	@echo "=================================================="
+	@echo ""
 	docker-compose run --rm app
-	echo "Project Complete. See output."
+	@echo ""
+	@echo "=================================================="
+	@echo "Project Complete. See ./output folder for results"
+	@echo "=================================================="
 
 # Start services
 up start:
