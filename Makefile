@@ -1,4 +1,4 @@
-.PHONY: run clean up down rebuild deepclean start stop
+.PHONY: run clean up down rebuild deepclean start stop build
 
 # Run project to build files, then stop and remove container
 run:
@@ -7,15 +7,17 @@ run:
 	@echo "Building and running project..."
 	@echo "=================================================="
 	@echo ""
-	docker-compose run --rm app
+	@docker-compose run --rm app
 	@echo ""
 	@echo "=================================================="
 	@echo "Project Complete. See ./output folder for results"
 	@echo "=================================================="
+	
 
 # Start services
-up start:
-	docker-compose up --build
+up start build:
+	docker-compose up --build -d
+	
 
 # Stop services
 down stop:
@@ -24,7 +26,8 @@ down stop:
 # Rebuild everything from scratch
 rebuild:
 	docker-compose down
-	docker-compose up --build
+	docker-compose up --build -d
+	
 
 # Remove generated files (images, reports, CSVs)
 clean:

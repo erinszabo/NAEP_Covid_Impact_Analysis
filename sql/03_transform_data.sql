@@ -3,41 +3,43 @@ SELECT 'Running transform script...' AS status;
 
 USE surveyDB;
 
--- to reduce size and ensure only high confidence (hc) data, only consider rows with high SE scores
--- remove rows with missing information
+/*
+-- Main tables
+---- Keeping the SE values to find z scores
+---- Removing IDs
+---- Removing rows with missing or null values
+*/
 
-
-CREATE TABLE math_hc AS
+CREATE TABLE math_TB AS
 SELECT
-    NAEPID,
-    AccNum,
     Category,
     CategoryL,
     sPercent,
+    PCT_SE,
     Avg_score,
+    ScoreSE,
     Question
 FROM mathTB
-WHERE ScoreSE < 3 AND PCT_SE < 3
-    AND Question NOT LIKE '%MISSING%'
+WHERE Question NOT LIKE '%MISSING%'
     AND CategoryL NOT LIKE '%MISSING%';
 
-CREATE TABLE reading_hc AS
+CREATE TABLE reading_TB AS
 SELECT
-    NAEPID,
-    AccNum,
     Category,
     CategoryL,
     sPercent,
+    PCT_SE,
     Avg_score,
+    ScoreSE,
     Question
 FROM readingTB
-WHERE ScoreSE < 3 AND PCT_SE < 3
-    AND Question NOT LIKE '%MISSING%'
+WHERE Question NOT LIKE '%MISSING%'
     AND CategoryL NOT LIKE '%MISSING%';
 
 
 
--- tables with only the information I want to analyze
+
+-- Trimmed versions of the tables for my own veiwing
 
 CREATE TABLE reading_trimmed AS
 SELECT

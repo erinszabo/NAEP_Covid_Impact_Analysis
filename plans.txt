@@ -2,8 +2,9 @@
  --------------------------------SETUP:------------------------------------------------------------
 (make sure Docker is running of course)
  now with Makefile: 
--- make start
--- make stop
+-- make start (or make rebuild)
+-- make run
+-- make stop 
 ----------------- docker-compose ------------------------
 -- docker-compose build
 -- docker compose up 

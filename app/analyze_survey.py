@@ -7,12 +7,12 @@ import seaborn as sb
 conn = connect_to_db()
 
 # pull data into data frames
-df_r_t = pd.read_sql("SELECT * FROM reading_trimmed", con=conn)
-df_m_t = pd.read_sql("SELECT * FROM math_trimmed", con=conn)
+df_r = pd.read_sql("SELECT * FROM reading_TB", con=conn)
+df_m = pd.read_sql("SELECT * FROM math_TB", con=conn)
 
 # export to CSV
-df_m_t.to_csv("output/m_trimmed.csv", index=False)
-df_r_t.to_csv("output/r_trimmed.csv", index=False)
+df_m.to_csv("output/math.csv", index=False)
+df_r.to_csv("output/reading.csv", index=False)
 
 
 
