@@ -32,9 +32,18 @@ review:
 
 -------------------------------- current work:---------------------------------------------------
  next steps:
- a. decide if I want to exclude rows with missing information
-  i. if I do, refactor to do this work in python and get rid of the 04 sql file
- b. look into the capabilities of seaborn
+ a. look into the capabilities of seaborn
+  i. use this to see if the scores have a normal distribution (curiosity and practice
+    and to see if I can use things that apply only to normal distributions)
+ b. separate the data by Avg_score, percentiles (in the report, they
+   looked at lower 25th and at/above 75th)
+ c. reinclude the SE for percent and avg score so I can calculate z-scores, 
+    to use when calculating p-values 
+ d. look at only rows with p < .05 (add a flag to these rows, bool maybe)
+
+
+ ?. look at the questions they compared and see if I get the same results
+  section III https://www.nationsreportcard.gov/highlights/ltt/2022/
 
  ---- at some point TODOs:
  - when project is close to complete, change make start to run detached with -d
@@ -45,8 +54,6 @@ X 1- make a base python file, connect to the database
 X 2- use docker-compose for setup and to run python once sql files are finished
 3- discovery: now work on the python file, organize data and use matplotlip to visualize. This step will 
   take some time and fiddling to see what patterns I can find.
-  a. I'd like to see which questions seemed to reveal the biggest varience in scores, ie. which resources have 
-    the greatest impact for these 9th graders.
 4- demonstrate: show what I've found by saving plots as images and creating an MD file to display those
   images and describe the information gleamed from them. Keep this file brief.
 5- write a README.md file to describe setup and them describe results from the project. In the results
@@ -59,6 +66,12 @@ X 2- use docker-compose for setup and to run python once sql files are finished
  
 -------------------------------------------------------------------------------------------------
 
-3-a. Notes:
+------------- 3. Notes: --------------------------------
+
+
+
+I want to compare different types of the same sort of question, 
+ex.  "Last year prep for distance: ..." 
+and see which specifically had a larger impact.
 
 ----------------------------------------------------------
