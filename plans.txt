@@ -33,30 +33,24 @@ review:
 
 -------------------------------- current work:---------------------------------------------------
  next steps:
- a. look into the capabilities of seaborn
-  i. use this to see if the scores have a normal distribution (curiosity and practice
-    and to see if I can use things that apply only to normal distributions)
+ Xa. look into the capabilities of seaborn
  b. separate the data by Avg_score, percentiles (in the report, they
    looked at lower 25th and at/above 75th)
- c. reinclude the SE for percent and avg score so I can calculate z-scores, 
-    to use when calculating p-values 
+ c. calculate z-scores, then calculate p-values 
  d. look at only rows with p < .05 (add a flag to these rows, bool maybe)
 
 
  ?. look at the questions they compared and see if I get the same results
   section III https://www.nationsreportcard.gov/highlights/ltt/2022/
 
- ---- at some point TODOs:
- - when project is close to complete, change make start to run detached with -d
-    (  docker-compose up --build -d  )
 
 ------------ Big Picture TODOs:
 X 1- make a base python file, connect to the database
 X 2- use docker-compose for setup and to run python once sql files are finished
-3- discovery: now work on the python file, organize data and use matplotlip to visualize. This step will 
+3- discovery: now work on the python files, organize data and use matplotlip to visualize. This step will 
   take some time and fiddling to see what patterns I can find.
 4- demonstrate: show what I've found by saving plots as images and creating an MD file to display those
-  images and describe the information gleamed from them. Keep this file brief.
+  images and describe the information gleand from them. Keep this file brief.
 5- write a README.md file to describe setup and them describe results from the project. In the results
   section of this file, reference the file created in the last step and give a more in depth description
   description of what I did and what the graphs mean. If I want to include images in the README, let
@@ -66,13 +60,3 @@ X 2- use docker-compose for setup and to run python once sql files are finished
 
  
 -------------------------------------------------------------------------------------------------
-
-------------- 3. Notes: --------------------------------
-
-
-
-I want to compare different types of the same sort of question, 
-ex.  "Last year prep for distance: ..." 
-and see which specifically had a larger impact.
-
-----------------------------------------------------------
