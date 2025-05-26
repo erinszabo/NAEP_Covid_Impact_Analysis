@@ -22,14 +22,26 @@ def assign_performance_groups(filepath):
     
     # Extract overall average from TOTAL row
     total_avg_score = df[df["CategoryL"].str.strip() == "TOTAL"]["Avg_score"].values[0]
+    
+    low_ceiling = total_avg_score - 1
+    high_floor = total_avg_score + 1
+    
+    # Assign performance groups
+    def label_group(score):
+        if score < low_ceiling:
+            return "Low" 
+        elif score > high_floor:
+            return "High"
+        else:
+            return None  # Ignore average scores
 
-    # Grouping: Low = below overall average, High = at or above
-    df["Group"] = np.where(df["Avg_score"] < total_avg_score, "Low", "High")
-    # ^ possibly change this to only include above average (>avg+10) and below avg (<avg-10)
+    df["Group"] = df["Avg_score"].apply(label_group)
     
     return df
 
 def merge_groups(df):
+    df = df[df["Group"].isin(["Low", "High"])]
+    
     low = df[df["Group"] == "Low"]
     high = df[df["Group"] == "High"]
 
@@ -50,7 +62,7 @@ def calculate_significance(merged_df):
     merged_df["significant"] = merged_df["pval"] < 0.05
     return merged_df
 
-def summarize_significant_results(df_sig):
+def order_by_significance(df_sig):
     return df_sig[[
         "Question", "CategoryL_low","CategoryL_high",
         "PercentA_low", "PercentA_high", "pval", "significant"
@@ -68,11 +80,10 @@ df_m = pd.read_sql("SELECT * FROM math_TB", con=conn)
 df_m.to_csv("output/math.csv", index=False)
 df_r.to_csv("output/reading.csv", index=False)
 
-# next add some documentation for these 
 merged = merge_groups(assign_performance_groups("output/math.csv"))
-tested = calculate_significance(merged)
-sig = summarize_significant_results(tested)
-sig.to_csv("output/out.csv", index=False)
+merged.to_csv("output/merged.csv", index=False)
+sig = order_by_significance(calculate_significance(merged))
+sig.to_csv("output/sig.csv", index=False)
 
 
 ######## END ############
