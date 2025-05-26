@@ -4,7 +4,7 @@
 run:
 	@echo ""
 	@echo "=================================================="
-	@echo "Building and running project..."
+	@echo "Running project..."
 	@echo "=================================================="
 	@echo ""
 	@docker-compose run --rm app

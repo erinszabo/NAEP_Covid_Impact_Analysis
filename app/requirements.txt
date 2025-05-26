@@ -1,5 +1,6 @@
 pandas
 matplotlib
+spicy
 seaborn
 SQLAlchemy
 pymysql

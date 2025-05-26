@@ -34,7 +34,7 @@ review:
 -------------------------------- current work:---------------------------------------------------
  next steps:
  Xa. look into the capabilities of seaborn
- b. separate the data by Avg_score, percentiles (in the report, they
+ b. separate the data by Avg_score, PercentAiles (in the report, they
    looked at lower 25th and at/above 75th)
  c. calculate z-scores, then calculate p-values 
  d. look at only rows with p < .05 (add a flag to these rows, bool maybe)

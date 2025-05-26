@@ -10,11 +10,12 @@ CREATE TABLE mathTB
     AccNum VARCHAR(9),
     Category INT,
     CategoryL VARCHAR(11),
-    sPercent INT,
+    PercentA INT,
     PCT_SE FLOAT,
     Avg_score INT,
     ScoreSE FLOAT,
-    Question VARCHAR(1000)
+    Question VARCHAR
+    (1000)
 );
 
 CREATE TABLE readingTB
@@ -23,10 +24,11 @@ CREATE TABLE readingTB
     AccNum VARCHAR(9),
     Category INT,
     CategoryL VARCHAR(11),
-    sPercent INT,
+    PercentA INT,
     PCT_SE FLOAT,
     Avg_score INT,
     ScoreSE FLOAT,
-    Question VARCHAR(1000)
+    Question VARCHAR
+    (1000)
 
 );

@@ -1,4 +1,4 @@
-NAEPID , AccNum  , Category, Category Label, Percent, PCT SE, Average score, Score SE, Survey Question Description                         , Flag
+NAEPID , AccNum  , Category, Category Label, PercentA, PCT SE, Average score, Score SE, Survey Question Description                         , Flag
 TOTAL  , TOTAL   ,        1, TOTAL         ,     100, ---   , 215          , 0.96    , TOTAL STUDENT POPULATION                            , 
 CV00001, VR233341,        1, Yes           ,      70, 0.96  , 220          , 1.08    , "During last schl yr, did you ever attend remotely ", 
 CV00001, VR233341,        2, No            ,      19, 0.86  , 211          , 1.77    , "During last schl yr, did you ever attend remotely ", 

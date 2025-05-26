@@ -14,7 +14,7 @@ CREATE TABLE math_TB AS
 SELECT
     Category,
     CategoryL,
-    sPercent,
+    PercentA,
     PCT_SE,
     Avg_score,
     ScoreSE,
@@ -27,7 +27,7 @@ CREATE TABLE reading_TB AS
 SELECT
     Category,
     CategoryL,
-    sPercent,
+    PercentA,
     PCT_SE,
     Avg_score,
     ScoreSE,
@@ -45,7 +45,7 @@ CREATE TABLE reading_trimmed AS
 SELECT
     Category,
     CategoryL,
-    sPercent,
+    PercentA,
     Avg_score,
     Question
 FROM readingTB
@@ -56,7 +56,7 @@ CREATE TABLE math_trimmed AS
 SELECT
     Category,
     CategoryL,
-    sPercent,
+    PercentA,
     Avg_score,
     Question
 FROM readingTB

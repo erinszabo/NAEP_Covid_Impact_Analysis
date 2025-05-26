@@ -1,5 +1,5 @@
 
-from analyze_survey import analysis
+from analyze_survey import analyze
 
 def visuals():
     """ 
