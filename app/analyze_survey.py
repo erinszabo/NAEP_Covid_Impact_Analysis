@@ -9,12 +9,7 @@ from scipy.stats import norm
 import seaborn as sb # I may not need this in this file
 
 
-
-def analyze():
-    """"""
-    pass
-
-############# helper functions below #################
+############# Functions #################
 
 
 def assign_performance_groups(filepath):
@@ -55,18 +50,34 @@ def merge_groups(df):
 
 
 def calculate_significance(merged_df):
+    # calculate z-stat
     merged_df["z"] = (merged_df["PercentA_low"] - merged_df["PercentA_high"]) / np.sqrt(
         merged_df["PCT_SE_low"]**2 + merged_df["PCT_SE_high"]**2
     )
+    # Calculate p-value
     merged_df["pval"] = 2 * (1 - norm.cdf(abs(merged_df["z"])))
+    
+    # They defined significant difference between low and high performing students to be p < 0.05
+    # So let there be a "significant" column that is "True" if p < 0.05 and False otherwise
     merged_df["significant"] = merged_df["pval"] < 0.05
+    
     return merged_df
 
 def order_by_significance(df_sig):
+    # sort by p-value
     return df_sig[[
         "Question", "CategoryL_low","CategoryL_high",
         "PercentA_low", "PercentA_high", "pval", "significant"
     ]].sort_values("pval")
+
+######## Driver Function #################
+def analyze():
+    
+    
+    # Finally, dispose connection
+    conn.dispose()
+    pass
+
 
 ################## Calls ###########################
 
