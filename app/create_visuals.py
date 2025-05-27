@@ -1,6 +1,8 @@
-from analyze_survey import analyze
 import seaborn as sns
 import matplotlib.pyplot as plt
+import pandas as pd
+
+from analyze_survey import analyze
 
 ############### Functions ###############
 
@@ -9,18 +11,17 @@ import matplotlib.pyplot as plt
 #   that is then called inside of visuals
 
 
+
 ######## Driver Function #################
 
-def visuals():
+def visuals(subject_path_dict):
     """ use information from analysis to create images describing the findings
     returns: a tuple of strings, paths of the generated images"""
-    analyze() 
-    # ^ At some point I need to decide if this should be here,
-    # or if I should just call above "visuals" in generate_report.py 
-    # either I continue with this 'chaining' method
-    # or let gen report be a driver and import all
     
-
-######## Calls: Remove when ready ###########
-
-visuals()
+    for key, value in subject_path_dict.items():
+        subject = key
+        sf_path = value # subject file path
+        
+        sf = pd.read_csv(sf_path)
+        sf.to_csv("output/test.csv", index=False)
+    

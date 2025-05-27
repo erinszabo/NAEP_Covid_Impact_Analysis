@@ -36,8 +36,7 @@ review:
  
  ?. look at the questions they compared and see if I get the same results
   section III https://www.nationsreportcard.gov/highlights/ltt/2022/
------- TODO at some point: 
--- continue with 'chaining' method or let gen report be the driver
+
 
 ------------ Big Picture TODOs:
 X 1- make a base python file, connect to the database

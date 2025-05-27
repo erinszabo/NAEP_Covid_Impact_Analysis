@@ -9,6 +9,7 @@ from scipy.stats import norm
 ############# Functions #################
 
 def assign_performance_groups(filepath):
+    
     df = pd.read_csv(filepath)
     
     # Extract overall average from TOTAL row
@@ -74,6 +75,9 @@ def analyze():
     # avoid code duplication by looping through subjects
     subjects = ["math", "reading"]
     
+    # store resulting files here when complete
+    rf_paths = {}
+    
     for subject in subjects:
         # pull data into data frame
         q = "SELECT * FROM "+ subject + "_TB"
@@ -85,9 +89,13 @@ def analyze():
 
         merged = merge_groups(assign_performance_groups(filepath))
         sig_ordered = order_by_significance(calculate_significance(merged))
-        sig_ordered.to_csv("output/"+subject+"_by_sig.csv", index=False)    
+        
+        rf_path = "output/"+subject+"_by_sig.csv" # store new file path 
+        sig_ordered.to_csv(rf_path, index=False)            
+        rf_paths[subject] = str(rf_path) # store associated resulting file path
     
     # Finally, dispose connection 
     conn.dispose()
-    pass
+    
+    return rf_paths
 
