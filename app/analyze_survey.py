@@ -6,11 +6,7 @@ import numpy as np
 from scipy.stats import norm
 
 
-import seaborn as sb # I may not need this in this file
-
-
 ############# Functions #################
-
 
 def assign_performance_groups(filepath):
     df = pd.read_csv(filepath)
@@ -71,39 +67,27 @@ def order_by_significance(df_sig):
     ]].sort_values("pval")
 
 ######## Driver Function #################
+
 def analyze():
+    conn = connect_to_db()
     
+    # avoid code duplication by looping through subjects
+    subjects = ["math", "reading"]
     
-    # Finally, dispose connection
+    for subject in subjects:
+        # pull data into data frame
+        q = "SELECT * FROM "+ subject + "_TB"
+        df = pd.read_sql(q, con=conn)
+        
+        # export to CSV
+        filepath = "output/" + subject + ".csv"
+        df.to_csv(filepath, index=False)
+
+        merged = merge_groups(assign_performance_groups(filepath))
+        sig_ordered = order_by_significance(calculate_significance(merged))
+        sig_ordered.to_csv("output/"+subject+"_by_sig.csv", index=False)    
+    
+    # Finally, dispose connection 
     conn.dispose()
     pass
 
-
-################## Calls ###########################
-
-conn = connect_to_db()
-
-# pull data into data frames
-df_r = pd.read_sql("SELECT * FROM reading_TB", con=conn)
-df_m = pd.read_sql("SELECT * FROM math_TB", con=conn)
-
-# export to CSV
-df_m.to_csv("output/math.csv", index=False)
-df_r.to_csv("output/reading.csv", index=False)
-
-merged = merge_groups(assign_performance_groups("output/math.csv"))
-merged.to_csv("output/merged.csv", index=False)
-sig = order_by_significance(calculate_significance(merged))
-sig.to_csv("output/sig.csv", index=False)
-
-
-######## END ############
-conn.dispose()
-"""
-^ this will either be the last command in this file or the 
-last command in the visuals file if we need to work with the 
-actual SQL for visuals. hopefully I can just take out what I need
-as some kind of python objects and create visuals with those.
-"""
-    
-#########################
