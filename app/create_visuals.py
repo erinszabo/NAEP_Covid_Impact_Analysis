@@ -1,4 +1,6 @@
 from analyze_survey import analyze
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 ############### Functions ###############
 
@@ -12,7 +14,11 @@ from analyze_survey import analyze
 def visuals():
     """ use information from analysis to create images describing the findings
     returns: a tuple of strings, paths of the generated images"""
-    analyze()
+    analyze() 
+    # ^ At some point I need to decide if this should be here,
+    # or if I should just call above "visuals" in generate_report.py 
+    # either I continue with this 'chaining' method
+    # or let gen report be a driver and import all
     
 
 ######## Calls: Remove when ready ###########
