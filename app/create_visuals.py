@@ -22,6 +22,14 @@ def visuals(subject_path_dict):
         subject = key
         sf_path = value # subject file path
         
-        sf = pd.read_csv(sf_path)
-        sf.to_csv("output/test.csv", index=False)
+        # #### below is just a test example
+        # sf = pd.read_csv(sf_path)
+        # fname = "output/"+str(key)+"_visual_ex.csv"
+        # sf.to_csv(fname, index=False)
+        ####
+        
+        
+def most_sig():
+    # look at the questions with a pval 0.0 (too small to detect)
+    pass
     

@@ -5,3 +5,4 @@ seaborn
 SQLAlchemy
 pymysql
 cryptography
+reportlab
