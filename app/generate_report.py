@@ -7,6 +7,8 @@ from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.platypus import Paragraph
 from reportlab.platypus import Frame
 from reportlab.lib.units import inch
+from PIL import Image
+import os
 
 
 ########### Driver Function #############
@@ -26,8 +28,14 @@ def gen_doc():
     # y_pos = add_paragraph (doc, "TEST words words words", x_pos, y_pos)
     # y_pos = add_paragraph (doc, "hbo;jknjpip7oftykcgvjhbkniy7pfotykcghvjbknhi;yfutdkxfchgvjbkhiogu;yfldturkxfhg j.vkblhioug;yfltyfhg.jvbkhogu;iyfutlcgjhkbjoug;yfitulfhgj.hkbjug;iyfutlc", x_pos, y_pos)
     # y_pos = add_paragraph (doc, str(width)+"  "+str(height)+"    hbo;knhi;yfutdkxfchgvjbkhiogu;yfldturkxfhg j.vkblhioug;yfltyfhg.jvbkhogu;iyfutlcgjhkbjoug;yfitulfhgj.hkbjug;iyfutlc", x_pos, y_pos)
+    #y_pos = add_paragraph (doc, TEST, x_pos, y_pos)
     
-    
+
+    ## test add image
+    # test_image_path = "output/Penny_Edits-24.jpg"
+    # y_pos = add_image(doc, test_image_path, x_pos, y_pos)
+    # y_pos = add_paragraph (doc, TEST, x_pos, y_pos)    
+    # y_pos = add_image(doc, test_image_path, x_pos, y_pos)
     
     # finally, save the document as a pdf
     doc.save()
@@ -84,7 +92,7 @@ def add_paragraph(doc, text, x, y, width=7.5*inch, height=10*inch):
 
     # create paragraph and frame
     paragraph = Paragraph(text, style)
-    frame = Frame(x, y, width, height, showBoundary=0) # height does not seem to need dependence on text length
+    frame = Frame(x, y, width, height, showBoundary=0) # width does not seem to need dependence on text length
 
     # wrap paragraph in a frame and draw it
     frame.addFromList([paragraph], doc)
@@ -96,16 +104,64 @@ def add_paragraph(doc, text, x, y, width=7.5*inch, height=10*inch):
     
     return new_y
     
-    
-
-
 
 def list_top_sig_questions():
     # 
     pass
 
-def insert_image(image_path):
-    pass
+
+def add_image(doc, image_path, x, y, width=None, height=None, max_width=6*inch, max_height=4*inch):
+    """ Add a paragraph to the doc
+
+    Args:
+        doc (canvas): the doc the image is to be added to
+        image_path (str): Path to the local image file.
+        x, y (float): Coordinates (in points) from bottom-left of the page.
+        width, height (float): Optional. Set explicit dimensions for the image.
+        max_width, max_height (float): If width/height not given, image scales to fit within this size.
+
+    Returns:
+        new_y (float): the new vertical distance from the bottom of the page for next item
+    """
+    
+    if not os.path.exists(image_path):
+        raise FileNotFoundError(f"Image not found: {image_path}")
+    
+    # get image dimension in pixels
+    img = Image.open(image_path)
+    img_width, img_height = img.size
+    
+
+    # convert pixel dimensions to point dimensions (72 dpi assumption)
+    aspect = img_height / img_width
+
+    if not width and not height:
+        width = max_width
+        height = width * aspect
+
+        if height > max_height:
+            height = max_height
+            width = height / aspect
+    elif width and not height:
+        height = width * aspect
+    elif height and not width:
+        width = height / aspect
+        
+
+    # draw the image
+    doc.drawImage(
+        image_path,
+        x,
+        y+1.5*height, 
+        width=width,
+        height=height,
+        preserveAspectRatio=True,
+        mask='auto'
+    )
+    
+    new_y = y - (height + 14) # set new y to be below the image plus one line
+
+    return new_y
 
 
 
