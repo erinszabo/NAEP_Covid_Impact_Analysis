@@ -33,11 +33,13 @@ review:
 
 -------------------------------- current work:---------------------------------------------------
  next steps:
- - rename project to be more descriptive (Math and Reading Covid analysis?)
- - continue working on generate report and create visuals simultaniously (currently on gen report)
-
+ -- continue working on generate report and create visuals simultaniously 
+ - start working on create visuals
+ 
 at some point:
  - update project description
+ - rename project to be more descriptive (Math and Reading Covid analysis?)
+
 
  ?. look at the questions they compared and see if I get the same results
   section III https://www.nationsreportcard.gov/highlights/ltt/2022/
