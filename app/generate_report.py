@@ -23,29 +23,21 @@ def gen_doc():
     x_pos = 20 # starting bottom left x position
     y_pos = .2 # starting bottom left y position  
     
-    # test add paragraph
-    y_pos = add_paragraph (doc, TEST, x_pos, y_pos)
-    y_pos = add_paragraph (doc, TEST, x_pos, y_pos)
-    y_pos = add_paragraph (doc, "y_pos: "+str(y_pos), x_pos, y_pos)
-    y_pos = add_paragraph (doc, TEST, x_pos, y_pos, )
-    y_pos = add_paragraph (doc, TEST, x_pos, y_pos, )
-    y_pos = add_paragraph (doc, "y_pos: "+str(y_pos), x_pos, y_pos)
-    y_pos = add_paragraph (doc, "y_pos: "+str(y_pos), x_pos, y_pos)
-    y_pos = add_paragraph (doc, "y_pos: "+str(y_pos), x_pos, y_pos)
-    y_pos = add_paragraph (doc, "y_pos: "+str(y_pos), x_pos, y_pos)
-
-
-    # y_pos = add_paragraph (doc, "TEST words words words", x_pos, y_pos)
-    # y_pos = add_paragraph (doc, "hbo;jknjpip7oftykcgvjhbkniy7pfotykcghvjbknhi;yfutdkxfchgvjbkhiogu;yfldturkxfhg j.vkblhioug;yfltyfhg.jvbkhogu;iyfutlcgjhkbjoug;yfitulfhgj.hkbjug;iyfutlc", x_pos, y_pos)
-    # y_pos = add_paragraph (doc, str(page_width)+"  "+str(page_height)+"    hbo;knhi;yfutdkxfchgvjbkhiogu;yfldturkxfhg j.vkblhioug;yfltyfhg.jvbkhogu;iyfutlcgjhkbjoug;yfitulfhgj.hkbjug;iyfutlc", x_pos, y_pos)
-    #y_pos = add_paragraph (doc, TEST, x_pos, y_pos)
-    
-
-    ## test add image
-    test_image_path = "output/Penny_Edits-24.jpg"
-    y_pos = add_image(doc, test_image_path, x_pos, y_pos)
-    y_pos = add_paragraph (doc, TEST, x_pos, y_pos, page_height)    
-    y_pos = add_image(doc, test_image_path, x_pos, y_pos)
+    # # test add paragraph
+    # y_pos = add_paragraph (doc, TEST, x_pos, y_pos)
+    # y_pos = add_paragraph (doc, TEST, x_pos, y_pos)
+    # y_pos = add_paragraph (doc, "y_pos: "+str(y_pos), x_pos, y_pos)
+    # y_pos = add_paragraph (doc, TEST, x_pos, y_pos, )
+    # y_pos = add_paragraph (doc, TEST, x_pos, y_pos, )
+    # y_pos = add_paragraph (doc, "y_pos: "+str(y_pos), x_pos, y_pos)
+    # y_pos = add_paragraph (doc, "y_pos: "+str(y_pos), x_pos, y_pos)
+    # y_pos = add_paragraph (doc, "y_pos: "+str(y_pos), x_pos, y_pos)
+    # y_pos = add_paragraph (doc, "y_pos: "+str(y_pos), x_pos, y_pos)
+    # ## test add image
+    # test_image_path = "output/Penny_Edits-24.jpg"
+    # y_pos = add_image(doc, test_image_path, x_pos, y_pos)
+    # y_pos = add_paragraph (doc, TEST, x_pos, y_pos, page_height)    
+    # y_pos = add_image(doc, test_image_path, x_pos, y_pos)
     
     # finally, save the document as a pdf
     doc.save()

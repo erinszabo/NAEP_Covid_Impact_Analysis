@@ -31,7 +31,7 @@ rebuild:
 
 # Remove generated files (images, reports, CSVs)
 clean:
-	rm -f output/*.csv output/*.png output/*.md output/*.pdf
+	rm -f output/*.csv output/*.png output/*.md output/*.pdf output/visuals/*.png
 
 # Complete clean slate, but potentially destructive
 deepclean:

@@ -33,12 +33,14 @@ review:
 
 -------------------------------- current work:---------------------------------------------------
  next steps:
- -- continue working on generate report and create visuals simultaniously 
- - start working on create visuals
+ -- create visuals: most_sig
+ - in the func, add a subfolder for visuals that contains images created in most_sig and have them named
+    ms_1, ms2, etc.
+  - consider flitering to only make visuals for questions with more than 2 answers to compare.
+
  
 at some point:
  - update project description
- - rename project to be more descriptive (Math and Reading Covid analysis?)
 
 
  ?. look at the questions they compared and see if I get the same results

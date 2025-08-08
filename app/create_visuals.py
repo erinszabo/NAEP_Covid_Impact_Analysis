@@ -22,14 +22,41 @@ def visuals(subject_path_dict):
         subject = key
         sf_path = value # subject file path
         
+        most_sig(subject, sf_path)
         # #### below is just a test example
         # sf = pd.read_csv(sf_path)
         # fname = "output/"+str(key)+"_visual_ex.csv"
         # sf.to_csv(fname, index=False)
         ####
-        
-        
-def most_sig():
+
+
+def most_sig(subject, sf_path):
     # look at the questions with a pval 0.0 (too small to detect)
-    pass
     
+    # Load and filter the data
+    df = pd.read_csv(sf_path)
+    df_sig = df[df['pval'] == 0.0]
+    
+    # Remove columns 'pval' and 'significant'
+    df_sig = df_sig.drop(columns=['pval', 'significant'])
+
+    # Plot for each unique question
+    i = 1 # to keep track of the figure number
+    for question in df_sig['Question'].unique():
+        sub = df_sig[df_sig['Question'] == question]
+        x_labels = sub['CategoryL_low'] + ' vs ' + sub['CategoryL_high']
+        x = range(len(sub))
+        width = 0.35
+
+        plt.figure(figsize=(8, 5))
+        plt.bar(x, sub['PercentA_low'], width=width, label='PercentA_low')
+        plt.bar([xi + width for xi in x], sub['PercentA_high'], width=width, label='PercentA_high')
+        plt.xticks([xi + width/2 for xi in x], x_labels, rotation=45)
+        plt.title(question.strip('" '))
+        plt.ylabel('Percent')
+        plt.tight_layout()
+        plt.legend()
+        plt.savefig(f"output/visuals/{subject}_most_significant_{i}.png")
+        plt.close()
+        i += 1
+    return # ["output/"+subject+"_most_significant_"+str(i)+".png" for i in range(1, i)]
