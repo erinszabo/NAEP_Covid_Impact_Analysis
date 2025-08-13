@@ -71,15 +71,18 @@ def qs_from_highlights(q):
     q = q.strip()
     
     highlighted_qs = {
-        # these first 3 are highlighted from NAEP
+        # resources
         'Remote: Access to high-speed internet': 'internet',
         'Remote: desktop; laptop or tablet': 'device',
         'Remote: A quiet place to work': 'quiet',
-        # these are from my own analysis
+        "Remote: teacher available to help w/ lang arts": 'teacher',
+        "Remote: teacher available to help w/ math": 'teacher',
+        # student specific
         "Remote math: Recognize when don't understand": 'recognize',
         'Remote math: Ask for help when you need it': 'ask',
         "Remote E/LA: Recognize when don't understand": 'recognize',
         "Remote E/LA: Ask for help when you need it": 'ask',
+        "How difficult or easy was it to learn remotely": 'difficulty'
     }
 
     sub_string = ""
