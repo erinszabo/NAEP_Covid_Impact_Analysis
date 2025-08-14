@@ -82,7 +82,12 @@ def qs_from_highlights(q):
         'Remote math: Ask for help when you need it': 'ask',
         "Remote E/LA: Recognize when don't understand": 'recognize',
         "Remote E/LA: Ask for help when you need it": 'ask',
-        "How difficult or easy was it to learn remotely": 'difficulty'
+        "How difficult or easy was it to learn remotely": 'difficulty',
+        # note: math_by_sig does not have "Lot Diff"/difficulty pair because the
+        #   average score for that pair is the almost same as the overall average,
+        #   so it is not considered an answer from "high" or "low" performing students
+        "Remote E/LA: Find resource online if dont underst":'find'
+        
     }
 
     sub_string = ""
