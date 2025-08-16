@@ -55,6 +55,7 @@ def most_sig(subject, sf_path):
         plt.bar(x, sub['PercentA_low'], width=width, label='PercentA_low')
         plt.bar([xi + width for xi in x], sub['PercentA_high'], width=width, label='PercentA_high')
         plt.xticks([xi + width/2 for xi in x], x_labels, rotation=45)
+        plt.yticks([0, 25, 50, 75, 100], ['0%', '25%', '50%', '75%', '100%'])
         plt.title(question.strip('" ').replace('\r', '').replace('\n', ''))
         plt.ylabel('Percent')
         plt.tight_layout()
