@@ -92,7 +92,10 @@ def qs_from_highlights(q):
     }
 
     sub_string = ""
-    if q in highlighted_qs.keys():
-        sub_string = highlighted_qs[q]
+    
+    # check if q is similar to any highlighted questions
+    for key in highlighted_qs.keys():
+        if key in q:
+            sub_string = highlighted_qs[key]
         
     return sub_string

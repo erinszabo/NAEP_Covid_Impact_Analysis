@@ -33,11 +33,7 @@ review:
 
 -------------------------------- current work:---------------------------------------------------
  next steps:
- -- create visuals: most_sig
- - in the func, add a subfolder for visuals that contains images created in most_sig and have them named
-    ms_1, ms2, etc.
-  - consider flitering to only make visuals for questions with more than 2 answers to compare.
-
+ -- start outlining report
  
 at some point:
  - update project description
