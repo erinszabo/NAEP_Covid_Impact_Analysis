@@ -36,7 +36,14 @@ Visual Rework - bar charts for each question comparing responses
  next steps:
  -- in analyze_survey:
    - make a new function to create a data frame for each question
-
+   should have this form: 
+      # question
+      data = pd.DataFrame({
+        "Answer": ["maybe", "probCant", "defCan", "probCan"],
+        "Percent": [39, 7, 23, 25],
+        "Score": [231, 225, 247, 247]
+    })
+   
  
 at some point:
  - update project description
