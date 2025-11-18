@@ -71,6 +71,39 @@ def order_by_significance(df_sig):
         "Question", "CategoryL_low","CategoryL_high",
         "PercentA_low", "PercentA_high", "pval", "significant"
     ]].sort_values("pval")
+    
+    
+    
+############ NEW FUNCTIONS ###############
+
+def make_question_dfs(csv_path):
+    """
+    Read csv_path and return a dict: { question_text: dataframe }.
+    Each dataframe has columns: Question, Answer, Percent, Score
+    """
+    df = pd.read_csv(csv_path, dtype=str)
+    
+    # Normalize columns
+    df['Answer'] = df.get('CategoryL')
+    df['Question'] = df.get('Question')
+    df['Percent'] = pd.to_numeric(df.get('PercentA'), errors='coerce')
+    df['Score'] = pd.to_numeric(df.get('Avg_score'), errors='coerce')
+
+
+    result = {}
+    for question, group in df.groupby('Question'):
+        answers = group['Answer'].tolist()
+        percents = group['Percent'].tolist()
+        scores = group['Score'].tolist()
+        qdf = pd.DataFrame({
+            "Question": [question] * len(answers),
+            "Answer": answers,
+            "Percent": percents,
+            "Score": scores
+        })
+        result[question] = qdf.reset_index(drop=True)
+
+    return result
 
 ######## Driver Function #################
 
@@ -92,6 +125,17 @@ def analyze():
         filepath = "output/" + subject + ".csv"
         df.to_csv(filepath, index=False)
 
+        ## NEW:  
+        
+        # make dict of question data frames
+        question_dfs = make_question_dfs(filepath)
+        
+        rf_path = "output/"+subject+"_by_question.csv" # store new file path 
+        question_dfs.to_csv(rf_path, index=False)            
+        rf_paths[subject] = str(rf_path) # store associated resulting file path
+    
+         
+        ### old analysis #######:
         merged = merge_groups(assign_performance_groups(filepath))
         sig_ordered = order_by_significance(calculate_significance(merged))
         
