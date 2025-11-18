@@ -51,7 +51,7 @@ def create_bar_graph(data, subject, i):
     
     # Scale percents into reasonable widths
     scale = 0.1
-    widths = data["Percent"] * scale
+    widths = data["Percent"] * scale 
 
     # Compute left edges so bars don’t overlap
     left_edges = np.cumsum([0] + list(widths[:-1]))
@@ -77,15 +77,15 @@ def create_bar_graph(data, subject, i):
         #ax.text(left + width/2, score/2, f"{pct}%", ha="center", va="center", fontsize=11, weight="bold", color="black")
 
 
-    # Reference line at score = 235
-    ax.axhline(235, linestyle="--", color="gray", label="Average Score of All Students")
+    # Reference line at average score for the subject
+    ax.axhline(avg, linestyle="--", color="gray", label="Average Score of All Students")
 
 
     ax.set_ylabel("Average Score by Answer")
     ax.set_title(data["Question"].iloc[0], fontsize=14) 
 
-    # Start y at 190
-    ax.set_ylim(190, avg+20) 
+    # Start y at 180
+    ax.set_ylim(180, avg+20) 
 
     # Remove default x-ticks (since x is now cumulative percent widths)
     ax.set_xticks([])

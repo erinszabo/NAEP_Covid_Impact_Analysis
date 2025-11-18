@@ -34,16 +34,12 @@ review:
 -------------------------------- current work:---------------------------------------------------
 Visual Rework - bar charts for each question comparing responses
  next steps:
- -- in analyze_survey:
-   - make a new function to create a data frame for each question
-   should have this form: 
-      # question
-      data = pd.DataFrame({
-        "Question": "question string?",
-        "Answer": ["maybe", "probCant", "defCan", "probCan"],
-        "Percent": [39, 7, 23, 25],
-        "Score": [231, 225, 247, 247]
-    })
+    - make old visuals still work (in separate folder)
+    - reduce clutter:
+        - for new visuals, remove questions that have a possible answer of "no response"
+        - maybe also remove qs with "n/a" responses
+        - if percent per responce is <1 (ugly uninformative graph)
+
    
  
 at some point:
