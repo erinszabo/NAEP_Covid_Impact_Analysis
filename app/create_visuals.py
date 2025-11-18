@@ -15,25 +15,26 @@ from analyze_survey import analyze
 
 ######## Driver Function #################
 
-def visuals(subject_path_dict, data_frames):
+def visuals(data_frames):
     """ use information from analysis to create images describing the findings
     returns: a tuple of strings, paths of the generated images"""
 
     for key, value in data_frames:
         subject = key
         question_dfs = value  # subject question data frames
+        i = 1 # to keep track of the figure number
         for question in question_dfs:
-            create_bar_graph(question_dfs[question], subject)
-
+            create_bar_graph(question_dfs[question], subject, i)
+            i += 1
 
 
 ######### OLD ##########
-    for key, value in subject_path_dict.items():
-        subject = key
-        sf_path = value # subject file path
-        
-        
-        most_sig(subject, sf_path)
+   # for key, value in subject_path_dict.items():
+   #     subject = key
+   #     sf_path = value # subject file path
+   #     
+   #     
+   #     most_sig(subject, sf_path)
         
         # #### below is just a test example
         # sf = pd.read_csv(sf_path)
@@ -42,7 +43,12 @@ def visuals(subject_path_dict, data_frames):
         ####
 ###########################################
 
-def create_bar_graph(data, subject):
+def create_bar_graph(data, subject, i):
+    if subject == "math":
+        avg = 235 # average score for all students in math
+    else:
+        avg = 215 # average score for all students in reading
+    
     # Scale percents into reasonable widths
     scale = 0.1
     widths = data["Percent"] * scale
@@ -76,10 +82,10 @@ def create_bar_graph(data, subject):
 
 
     ax.set_ylabel("Average Score by Answer")
-    ax.set_title("Remote Math: Recognize when don't understand", fontsize=14)
+    ax.set_title(data["Question"].iloc[0], fontsize=14) 
 
     # Start y at 190
-    ax.set_ylim(190, max(data["Score"]) + 10)
+    ax.set_ylim(190, avg+20) 
 
     # Remove default x-ticks (since x is now cumulative percent widths)
     ax.set_xticks([])
@@ -89,7 +95,7 @@ def create_bar_graph(data, subject):
     ax.legend()
 
     #plt.show()
-    plt.savefig(f"output/visuals/{data['Question']}_{subject}.png")
+    plt.savefig(f"output/visuals/{subject}_question_{i}.png")
     plt.close()
 
 
@@ -123,6 +129,7 @@ def most_sig(subject, sf_path):
         plt.ylabel('Percent')
         plt.tight_layout()
         plt.legend()
+        
         plt.savefig(f"output/visuals/{q_str}_{subject}_ms_{i}.png")
         plt.close()
         i += 1
