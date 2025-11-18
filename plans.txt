@@ -32,8 +32,11 @@ review:
 -- Ctrl-D to exit mySQL
 
 -------------------------------- current work:---------------------------------------------------
+Visual Rework - bar charts for each question comparing responses
  next steps:
- -- start outlining report
+ -- in analyze_survey:
+   - make a new function to create a data frame for each question
+
  
 at some point:
  - update project description

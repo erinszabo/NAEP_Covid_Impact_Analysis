@@ -8,6 +8,11 @@ from scipy.stats import norm
 
 ############# Functions #################
 
+#def get_questions(df):
+#    return df["Question"].unique()
+
+##################
+
 def assign_performance_groups(filepath):
     
     df = pd.read_csv(filepath)
