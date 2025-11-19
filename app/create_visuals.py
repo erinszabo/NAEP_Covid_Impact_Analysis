@@ -72,8 +72,8 @@ def create_bar_graph(data, subject, i):
         ax.bar(left, score, width=width, color=color, edgecolor="black", align="edge")
         # Label only the answer (bigger and bold)
         ax.text(left + width/2, score + 2, ans, ha="center", va="bottom", fontsize=12, weight="bold")
-        # Label percent INSIDE bar, centered
-        ax.text(left + width/2, 210, f"{pct}%", ha="center", va="center", fontsize=12)
+        # Label percent INSIDE bar, centered 210
+        ax.text(left + width/2, 182, f"{pct}%", ha="center", va="center", fontsize=12)
         #ax.text(left + width/2, score/2, f"{pct}%", ha="center", va="center", fontsize=11, weight="bold", color="black")
 
 
