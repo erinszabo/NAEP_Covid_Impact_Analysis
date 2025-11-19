@@ -21,7 +21,8 @@ SELECT
     Question
 FROM mathTB
 WHERE Question NOT LIKE '%MISSING%'
-    AND CategoryL NOT LIKE '%MISSING%';
+    AND CategoryL NOT LIKE '%MISSING%'
+    AND CategoryL NOT LIKE '%NO RESP%';
 
 CREATE TABLE reading_TB AS
 SELECT
@@ -34,8 +35,8 @@ SELECT
     Question
 FROM readingTB
 WHERE Question NOT LIKE '%MISSING%'
-    AND CategoryL NOT LIKE '%MISSING%';
-
+    AND CategoryL NOT LIKE '%MISSING%'
+    AND CategoryL NOT LIKE '%NO RESP%';
 
 
 
