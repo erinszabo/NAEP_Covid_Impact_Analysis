@@ -39,7 +39,7 @@ Visual Rework - bar charts for each question comparing responses
         X for new visuals, remove questions that have a possible answer of "no response"
         - maybe also remove qs with "n/a" responses
         - if percent per responce is <1 (ugly uninformative graph)
-        - remove questions with <2 responses (may have removed a no resp, etc)
+        - remove questions with <2 responses (may have removed a no resp, etc) (check length of response array)
 
    
  

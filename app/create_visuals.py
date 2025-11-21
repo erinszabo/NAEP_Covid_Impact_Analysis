@@ -69,10 +69,10 @@ def create_bar_graph(data, subject, i):
 
     # Draw bars
     for left, width, score, ans, pct, color in zip(left_edges, widths, data["Score"], data["Answer"], data["Percent"], colors):
-        ax.bar(left, score, width=width, color=color, edgecolor="black", align="edge")
+        ax.bar(left, score, width=width, color=color, edgecolor="black", align="edge")        
         # Label only the answer (bigger and bold)
         ax.text(left + width/2, score + 2, ans, ha="center", va="bottom", fontsize=12, weight="bold")
-        # Label percent INSIDE bar, centered 210
+        # Label percent INSIDE bar, near bottom
         ax.text(left + width/2, 182, f"{pct}%", ha="center", va="center", fontsize=12)
         #ax.text(left + width/2, score/2, f"{pct}%", ha="center", va="center", fontsize=11, weight="bold", color="black")
 

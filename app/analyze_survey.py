@@ -92,18 +92,29 @@ def make_question_dfs(csv_path):
 
     result = {}
     for question, group in df.groupby('Question'):
-        answers = group['Answer'].tolist()
+        answers = group['Answer'].astype(str).tolist()
         percents = group['Percent'].tolist()
         scores = group['Score'].tolist()
-        qdf = pd.DataFrame({
-            "Question": [question] * len(answers),
-            "Answer": answers,
-            "Percent": percents,
-            "Score": scores
-        })
-        result[question] = qdf.reset_index(drop=True)
+        
+        normalized_answers = [a.strip().upper() for a in answers]
+        # if any question isn't insightful, skip this question
+        if "NO RESP" in normalized_answers or "MISSING" in normalized_answers or "NA" in normalized_answers or "N/A" in normalized_answers:
+            # skip questions with poor answers
+            continue
+        elif len(answers) < 2:
+            # Skip questions with less than 2 answers
+            continue
+        else:
+            qdf = pd.DataFrame({
+                "Question": [question.strip()] * len(answers),
+                "Answer": answers,
+                "Percent": percents,
+                "Score": scores
+            })
+            result[question] = qdf.reset_index(drop=True)
 
     return result
+
 
 ######## Driver Function #################
 
